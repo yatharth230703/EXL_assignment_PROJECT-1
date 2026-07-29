@@ -1,0 +1,19 @@
+{
+  "views_labelled": 4,
+  "views_with_findings": 1,
+  "vision_findings_scored": 1,
+  "true_positives": 1,
+  "false_positives": 0,
+  "precision": 1.0,
+  "expected_issues_total": 3,
+  "views_with_a_hit": 1,
+  "details": [
+    {
+      "page_url": "https://the-internet.herokuapp.com/login",
+      "viewport": "mobile_390",
+      "finding": "The 'Fork me on GitHub' banner overlaps with the paragraph text 'This is where you can log into the secure are",
+      "verdict": "TRUE POSITIVE",
+      "matched_by": "llm-judge"
+    }
+  ]
+}

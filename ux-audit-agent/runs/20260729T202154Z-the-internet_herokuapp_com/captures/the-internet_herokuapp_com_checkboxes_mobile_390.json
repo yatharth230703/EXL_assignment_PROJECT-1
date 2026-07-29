@@ -1,0 +1,57 @@
+{
+  "page_url": "https://the-internet.herokuapp.com/checkboxes",
+  "viewport": "mobile_390",
+  "timestamp": "2026-07-29T20:22:23.721883Z",
+  "console_messages": [
+    {
+      "type": "error",
+      "text": "Failed to load resource: net::ERR_NAME_NOT_RESOLVED"
+    }
+  ],
+  "network_failures": [
+    {
+      "url": "https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=https%3A%2F%2Fthe-internet.herokuapp.com%2Fcheckboxes&u=oeu1785356546003r0.9106344370746179&wxhr=true&t=1785356546005&f=298349752,318188263",
+      "status": null,
+      "failure_text": "net::ERR_NAME_NOT_RESOLVED"
+    }
+  ],
+  "navigation_timing": {
+    "ttfb_ms": 1077.800000011921,
+    "dom_content_loaded_ms": 3308.899999976158,
+    "load_event_ms": 3309.100000023842
+  },
+  "cls_score": 0.0,
+  "lcp_ms": 3312.0,
+  "layout_shifts": [],
+  "dom_issues": {
+    "broken_image_srcs": [],
+    "overflowing_selectors": [],
+    "placeholder_text_hits": []
+  },
+  "screenshot_early_path": "runs/20260729T202154Z-the-internet_herokuapp_com/screenshots/the-internet_herokuapp_com_checkboxes_mobile_390_early.png",
+  "screenshot_settled_viewport_path": "runs/20260729T202154Z-the-internet_herokuapp_com/screenshots/the-internet_herokuapp_com_checkboxes_mobile_390_settled_viewport.png",
+  "screenshot_settled_fullpage_path": "runs/20260729T202154Z-the-internet_herokuapp_com/screenshots/the-internet_herokuapp_com_checkboxes_mobile_390_settled_fullpage.png",
+  "visually_stable": true,
+  "render_suspect": false,
+  "has_form": true,
+  "form_selectors": [
+    "form#checkboxes"
+  ],
+  "primary_cta": null,
+  "axe_violations": [
+    {
+      "rule_id": "label",
+      "impact": "critical",
+      "help": "Form elements must have labels",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/label?application=axeAPI",
+      "selectors": [
+        "input:nth-child(1)",
+        "input:nth-child(3)"
+      ],
+      "node_count": 2
+    }
+  ],
+  "axe_error": null,
+  "capture_error": null,
+  "status": "ok"
+}

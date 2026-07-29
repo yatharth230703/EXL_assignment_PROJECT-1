@@ -1,0 +1,77 @@
+{
+  "page_url": "https://the-internet.herokuapp.com/broken_images",
+  "viewport": "mobile_390",
+  "timestamp": "2026-07-29T20:22:21.700835Z",
+  "console_messages": [
+    {
+      "type": "error",
+      "text": "Failed to load resource: net::ERR_NAME_NOT_RESOLVED"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    }
+  ],
+  "network_failures": [
+    {
+      "url": "https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=https%3A%2F%2Fthe-internet.herokuapp.com%2Fbroken_images&u=oeu1785356544101r0.8712636225847703&wxhr=true&t=1785356544104&f=298349752,318188263",
+      "status": null,
+      "failure_text": "net::ERR_NAME_NOT_RESOLVED"
+    },
+    {
+      "url": "https://the-internet.herokuapp.com/asdf.jpg",
+      "status": 404,
+      "failure_text": null
+    },
+    {
+      "url": "https://the-internet.herokuapp.com/hjkl.jpg",
+      "status": 404,
+      "failure_text": null
+    }
+  ],
+  "navigation_timing": {
+    "ttfb_ms": 1103.300000011921,
+    "dom_content_loaded_ms": 3414.699999988079,
+    "load_event_ms": 3414.899999976158
+  },
+  "cls_score": 0.0,
+  "lcp_ms": 3420.0,
+  "layout_shifts": [],
+  "dom_issues": {
+    "broken_image_srcs": [
+      "https://the-internet.herokuapp.com/asdf.jpg",
+      "https://the-internet.herokuapp.com/hjkl.jpg"
+    ],
+    "overflowing_selectors": [],
+    "placeholder_text_hits": []
+  },
+  "screenshot_early_path": "runs/20260729T202154Z-the-internet_herokuapp_com/screenshots/the-internet_herokuapp_com_broken_images_mobile_390_early.png",
+  "screenshot_settled_viewport_path": "runs/20260729T202154Z-the-internet_herokuapp_com/screenshots/the-internet_herokuapp_com_broken_images_mobile_390_settled_viewport.png",
+  "screenshot_settled_fullpage_path": "runs/20260729T202154Z-the-internet_herokuapp_com/screenshots/the-internet_herokuapp_com_broken_images_mobile_390_settled_fullpage.png",
+  "visually_stable": true,
+  "render_suspect": false,
+  "has_form": false,
+  "form_selectors": [],
+  "primary_cta": null,
+  "axe_violations": [
+    {
+      "rule_id": "image-alt",
+      "impact": "critical",
+      "help": "Images must have alternative text",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/image-alt?application=axeAPI",
+      "selectors": [
+        "img[src$=\"asdf.jpg\"]",
+        "img[src$=\"hjkl.jpg\"]",
+        "img[src$=\"avatar-blank.jpg\"]"
+      ],
+      "node_count": 3
+    }
+  ],
+  "axe_error": null,
+  "capture_error": null,
+  "status": "ok"
+}

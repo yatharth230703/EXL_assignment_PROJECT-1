@@ -1,0 +1,68 @@
+{
+  "page_url": "https://linear.app/brand",
+  "viewport": "mobile_390",
+  "timestamp": "2026-07-29T17:39:13.217366Z",
+  "console_messages": [
+    {
+      "type": "error",
+      "text": "Error: <feBlend> attribute mode: Unrecognized enumerated value, \"plus-lighter\"."
+    }
+  ],
+  "network_failures": [],
+  "navigation_timing": {
+    "ttfb_ms": 68.20000004768372,
+    "dom_content_loaded_ms": 1340.6000000238419,
+    "load_event_ms": 0.0
+  },
+  "cls_score": 0.0003435406130728282,
+  "lcp_ms": 1448.0,
+  "layout_shifts": [
+    {
+      "value": 0.0003435406130728282,
+      "selector": null
+    }
+  ],
+  "dom_issues": {
+    "broken_image_srcs": [],
+    "overflowing_selectors": [
+      "button",
+      "div"
+    ],
+    "placeholder_text_hits": []
+  },
+  "screenshot_early_path": "runs/20260729T173504Z-linear_app/screenshots/linear_app_brand_mobile_390_early.png",
+  "screenshot_settled_viewport_path": "runs/20260729T173504Z-linear_app/screenshots/linear_app_brand_mobile_390_settled_viewport.png",
+  "screenshot_settled_fullpage_path": "runs/20260729T173504Z-linear_app/screenshots/linear_app_brand_mobile_390_settled_fullpage.png",
+  "visually_stable": true,
+  "render_suspect": false,
+  "has_form": false,
+  "form_selectors": [],
+  "primary_cta": "Log in\nSign up",
+  "axe_violations": [
+    {
+      "rule_id": "button-name",
+      "impact": "critical",
+      "help": "Buttons must have discernible text",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
+      "selectors": [
+        ".TZTsQG_mobileMenuTrigger"
+      ],
+      "node_count": 1
+    },
+    {
+      "rule_id": "nested-interactive",
+      "impact": "serious",
+      "help": "Interactive controls must not be nested",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/nested-interactive?application=axeAPI",
+      "selectors": [
+        ".m5H9fW_section:nth-child(5) > .m5H9fW_grid > .m5H9fW_asset[data-theme=\"dark\"]",
+        ".m5H9fW_section:nth-child(5) > .m5H9fW_grid > .m5H9fW_asset[data-theme=\"light\"]",
+        ".m5H9fW_section:nth-child(6) > .m5H9fW_grid > .m5H9fW_asset[data-theme=\"dark\"]"
+      ],
+      "node_count": 7
+    }
+  ],
+  "axe_error": null,
+  "capture_error": null,
+  "status": "ok"
+}

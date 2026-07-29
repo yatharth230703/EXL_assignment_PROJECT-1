@@ -1,0 +1,61 @@
+{
+  "page_url": "https://linear.app/features",
+  "viewport": "tablet_768",
+  "timestamp": "2026-07-29T15:41:47.532501Z",
+  "console_messages": [],
+  "network_failures": [],
+  "navigation_timing": {
+    "ttfb_ms": 59.80000001192093,
+    "dom_content_loaded_ms": 1403.5999999642372,
+    "load_event_ms": 0.0
+  },
+  "cls_score": 0.00025820452719926834,
+  "lcp_ms": 10552.0,
+  "layout_shifts": [
+    {
+      "value": 0.00025820452719926834,
+      "selector": null
+    }
+  ],
+  "dom_issues": {
+    "broken_image_srcs": [],
+    "overflowing_selectors": [
+      "div",
+      "img"
+    ],
+    "placeholder_text_hits": []
+  },
+  "screenshot_early_path": "runs/20260729T154108Z-linear_app/screenshots/linear_app_features_tablet_768_early.png",
+  "screenshot_settled_viewport_path": "runs/20260729T154108Z-linear_app/screenshots/linear_app_features_tablet_768_settled_viewport.png",
+  "screenshot_settled_fullpage_path": "runs/20260729T154108Z-linear_app/screenshots/linear_app_features_tablet_768_settled_fullpage.png",
+  "has_form": false,
+  "form_selectors": [],
+  "primary_cta": "Planning\n\nSet the product direction with projects and initiatives",
+  "axe_violations": [
+    {
+      "rule_id": "button-name",
+      "impact": "critical",
+      "help": "Buttons must have discernible text",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
+      "selectors": [
+        ".TZTsQG_mobileMenuTrigger"
+      ],
+      "node_count": 1
+    },
+    {
+      "rule_id": "aria-command-name",
+      "impact": "serious",
+      "help": "ARIA commands must have an accessible name",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/aria-command-name?application=axeAPI",
+      "selectors": [
+        ".uDqFfq_planningCard > .ImRUSq_align-flex-end.ImRUSq_justify-space-between.ImRUSq_root > .uDqFfq_iconButton.hbnAuG_root.S36ykG_variant-tertiary",
+        ".uDqFfq_buildCard > .ImRUSq_align-flex-end.ImRUSq_justify-space-between.ImRUSq_root > .uDqFfq_iconButton.hbnAuG_root.S36ykG_variant-tertiary",
+        "a[href=\"/ai\"] > .ImRUSq_align-flex-end.ImRUSq_justify-space-between.ImRUSq_root > .uDqFfq_iconButton.hbnAuG_root.S36ykG_variant-tertiary"
+      ],
+      "node_count": 8
+    }
+  ],
+  "axe_error": null,
+  "capture_error": null,
+  "status": "ok"
+}

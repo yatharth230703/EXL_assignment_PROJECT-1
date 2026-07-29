@@ -1,0 +1,159 @@
+{
+  "page_url": "https://plausity.com/de/custom-workflows",
+  "viewport": "desktop_1440",
+  "timestamp": "2026-07-29T20:30:06.674630Z",
+  "console_messages": [
+    {
+      "type": "error",
+      "text": "Access to XMLHttpRequest at 'https://assets.mailerlite.com/css/universal.css' from origin 'https://plausity.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+    },
+    {
+      "type": "warning",
+      "text": "Couldn't load preload assets:  ProgressEvent"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: net::ERR_FAILED"
+    }
+  ],
+  "network_failures": [
+    {
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-MB6LVWY0F6&gtm=45je67s0v9253856882za200zd9253856882&_p=1785357008457&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1585813443.1785357009&frm=0&ngs=1&pscdl=noapi&rcb=6&sr=1440x900&uaa=arm&uab=64&uafvl=HeadlessChrome%3B149.0.7827.55%7CChromium%3B149.0.7827.55%7CNot)A%253BBrand%3B24.0.0.0&uam=&uamb=0&uap=macOS&uapv=26.3.1&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938465~115938468~118395334~118897920~118897930~119791749~119896803&sid=1785357008&sct=1&seg=0&dl=https%3A%2F%2Fplausity.com%2Fde%2Fcustom-workflows&dt=Individuelle%20Workflows%20f%C3%BCr%20Deal-Teams%20%7C%20Plausity&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1767",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://plausity.com/de/product/ai-analysis-engine?_rsc=btdeg",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://plausity.com/de/product/data-room-ingestion?_rsc=btdeg",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://plausity.com/de/product/findings-risk-intelligence?_rsc=btdeg",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://plausity.com/de/product/reports-deliverables?_rsc=btdeg",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://plausity.com/de/product/integrations-security?_rsc=btdeg",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://plausity.com/de/solutions/commercial-dd?_rsc=btdeg",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://plausity.com/de/solutions/organisation-compliance-dd?_rsc=btdeg",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://plausity.com/de/solutions/website-compliance?_rsc=btdeg",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://plausity.com/de/solutions/tax-dd?_rsc=btdeg",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://plausity.com/de/solutions/background-check-integrity-dd?_rsc=btdeg",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://plausity.com/de/solutions/esg?_rsc=btdeg",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://plausity.com/de/solutions/industry-expertise?_rsc=btdeg",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://plausity.com/de/solutions/value-creation?_rsc=btdeg",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://plausity.com/de/solutions/vc-pe-funds?_rsc=btdeg",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://plausity.com/de/solutions/ma-advisory-firms?_rsc=btdeg",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://plausity.com/de/solutions/ma-project-leads?_rsc=btdeg",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://plausity.com/de/solutions/smbs?_rsc=btdeg",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://plausity.com/de/about?_rsc=btdeg",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://assets.mailerlite.com/css/universal.css",
+      "status": null,
+      "failure_text": "net::ERR_FAILED"
+    }
+  ],
+  "navigation_timing": {
+    "ttfb_ms": 721.3000000119209,
+    "dom_content_loaded_ms": 1141.699999988079,
+    "load_event_ms": 1685.699999988079
+  },
+  "cls_score": 0.0,
+  "lcp_ms": 1200.0,
+  "layout_shifts": [],
+  "dom_issues": {
+    "broken_image_srcs": [],
+    "overflowing_selectors": [],
+    "placeholder_text_hits": []
+  },
+  "screenshot_early_path": "runs/20260729T202846Z-plausity_com/screenshots/plausity_com_de_custom-workflows_desktop_1440_early.png",
+  "screenshot_settled_viewport_path": "runs/20260729T202846Z-plausity_com/screenshots/plausity_com_de_custom-workflows_desktop_1440_settled_viewport.png",
+  "screenshot_settled_fullpage_path": "runs/20260729T202846Z-plausity_com/screenshots/plausity_com_de_custom-workflows_desktop_1440_settled_fullpage.png",
+  "visually_stable": true,
+  "render_suspect": false,
+  "has_form": false,
+  "form_selectors": [],
+  "primary_cta": "Newsletter",
+  "axe_violations": [
+    {
+      "rule_id": "color-contrast",
+      "impact": "serious",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+      "selectors": [
+        ".custom-workflows_heroDescription___UETF",
+        ".custom-workflows_integrationsBody__JefMi",
+        ".custom-workflows_traceabilityBody__ip_Yu"
+      ],
+      "node_count": 4
+    }
+  ],
+  "axe_error": null,
+  "capture_error": null,
+  "status": "ok"
+}

@@ -1,0 +1,96 @@
+{"url":"https://the-internet.herokuapp.com/","decision":"duplicate","reason":"already seen after normalization"}
+{"url":"https://the-internet.herokuapp.com/","decision":"duplicate","reason":"already seen after normalization"}
+{"url":"https://the-internet.herokuapp.com/login","decision":"duplicate","reason":"already seen after normalization"}
+{"url":"https://the-internet.herokuapp.com/","decision":"selected","reason":"priority=0 depth=0 via sitemap.xml+BFS"}
+{"url":"https://the-internet.herokuapp.com/login","decision":"selected","reason":"priority=5 depth=1 via sitemap.xml+BFS"}
+{"url":"https://the-internet.herokuapp.com/abtest","decision":"selected","reason":"priority=999 depth=1 via sitemap.xml+BFS"}
+{"url":"https://the-internet.herokuapp.com/add_remove_elements","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/basic_auth","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/broken_images","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/challenging_dom","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/checkboxes","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/context_menu","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/digest_auth","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/disappearing_elements","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/download","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/download_secure","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/drag_and_drop","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/dropdown","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/dynamic_content","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/dynamic_controls","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/dynamic_loading","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/entry_ad","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/exit_intent","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/floating_menu","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/forgot_password","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/frames","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/geolocation","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/horizontal_slider","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/hovers","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/infinite_scroll","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/inputs","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/javascript_alerts","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/javascript_error","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/jqueryui/menu","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/key_presses","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/large","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/nested_frames","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/notification_message","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/redirector","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/shadowdom","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/shifting_content","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/slow","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/status_codes","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/tables","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/tinymce","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/typos","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/upload","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/windows","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/","decision":"duplicate","reason":"already seen after normalization"}
+{"url":"https://the-internet.herokuapp.com/","decision":"duplicate","reason":"already seen after normalization"}
+{"url":"https://the-internet.herokuapp.com/login","decision":"duplicate","reason":"already seen after normalization"}
+{"url":"https://the-internet.herokuapp.com/","decision":"selected","reason":"priority=0 depth=0 via sitemap.xml+BFS"}
+{"url":"https://the-internet.herokuapp.com/login","decision":"selected","reason":"priority=5 depth=1 via sitemap.xml+BFS"}
+{"url":"https://the-internet.herokuapp.com/abtest","decision":"selected","reason":"priority=999 depth=1 via sitemap.xml+BFS"}
+{"url":"https://the-internet.herokuapp.com/add_remove_elements","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/basic_auth","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/broken_images","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/challenging_dom","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/checkboxes","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/context_menu","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/digest_auth","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/disappearing_elements","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/download","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/download_secure","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/drag_and_drop","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/dropdown","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/dynamic_content","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/dynamic_controls","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/dynamic_loading","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/entry_ad","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/exit_intent","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/floating_menu","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/forgot_password","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/frames","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/geolocation","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/horizontal_slider","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/hovers","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/infinite_scroll","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/inputs","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/javascript_alerts","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/javascript_error","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/jqueryui/menu","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/key_presses","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/large","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/nested_frames","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/notification_message","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/redirector","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/shadowdom","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/shifting_content","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/slow","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/status_codes","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/tables","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/tinymce","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/typos","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/upload","decision":"capped","reason":"beyond max_pages=3"}
+{"url":"https://the-internet.herokuapp.com/windows","decision":"capped","reason":"beyond max_pages=3"}

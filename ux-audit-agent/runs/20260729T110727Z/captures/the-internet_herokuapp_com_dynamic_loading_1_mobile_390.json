@@ -1,0 +1,36 @@
+{
+  "page_url": "https://the-internet.herokuapp.com/dynamic_loading/1",
+  "viewport": "mobile_390",
+  "timestamp": "2026-07-29T11:07:27.729643Z",
+  "console_messages": [
+    {
+      "type": "error",
+      "text": "Failed to load resource: net::ERR_NAME_NOT_RESOLVED"
+    }
+  ],
+  "network_failures": [
+    {
+      "url": "https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=https%3A%2F%2Fthe-internet.herokuapp.com%2Fdynamic_loading%2F1&u=oeu1785323252353r0.1645717084081585&wxhr=true&t=1785323252355&f=298349752,318188263",
+      "status": null,
+      "failure_text": "net::ERR_NAME_NOT_RESOLVED"
+    }
+  ],
+  "navigation_timing": {
+    "ttfb_ms": 1526.800000011921,
+    "dom_content_loaded_ms": 5178.0,
+    "load_event_ms": 5178.0
+  },
+  "cls_score": 0.0,
+  "lcp_ms": 5192.0,
+  "layout_shifts": [],
+  "dom_issues": {
+    "broken_image_srcs": [],
+    "overflowing_selectors": [],
+    "placeholder_text_hits": []
+  },
+  "screenshot_early_path": "runs/20260729T110727Z/screenshots/the-internet_herokuapp_com_dynamic_loading_1_mobile_390_early.png",
+  "screenshot_settled_viewport_path": "runs/20260729T110727Z/screenshots/the-internet_herokuapp_com_dynamic_loading_1_mobile_390_settled_viewport.png",
+  "screenshot_settled_fullpage_path": "runs/20260729T110727Z/screenshots/the-internet_herokuapp_com_dynamic_loading_1_mobile_390_settled_fullpage.png",
+  "capture_error": null,
+  "status": "ok"
+}

@@ -1,0 +1,154 @@
+{
+  "page_url": "https://linear.app/blog",
+  "viewport": "mobile_390",
+  "timestamp": "2026-07-29T15:41:56.975203Z",
+  "console_messages": [
+    {
+      "type": "log",
+      "text": "%c __                                               _____          __          __           ______          v1.0.0\n/\\ \\       __                                    /\\  __`\\       /\\ \\      __/\\ \\__       /\\__  _\\                       \n\\ \\ \\     /\\_\\    ___      __     __     _ __    \\ \\ \\/\\ \\  _ __\\ \\ \\____/\\_\\ \\ ,_\\      \\/_/\\ \\/     ___     ___       \n \\ \\ \\  __\\/\\ \\ /' _ `\\  /'__`\\ /'__`\\  /\\`'__\\   \\ \\ \\ \\ \\/\\`'__\\ \\ '__`\\/\\ \\ \\ \\/         \\ \\ \\   /' _ `\\  /'___\\     \n  \\ \\ \\L\\ \\\\ \\ \\/\\ \\/\\ \\/\\  __//\\ \\L\\.\\_\\ \\ \\/     \\ \\ \\_\\ \\ \\ \\/ \\ \\ \\L\\ \\ \\ \\ \\ \\_  __     \\_\\ \\__/\\ \\/\\ \\/\\ \\__/  __ \n   \\ \\____/ \\ \\_\\ \\_\\ \\_\\ \\____\\ \\__/.\\_\\\\ \\_\\      \\ \\_____\\ \\_\\  \\ \\_,__/\\ \\_\\ \\__\\/\\ \\    /\\_____\\ \\_\\ \\_\\ \\____\\/\\_\\\n    \\/___/   \\/_/\\/_/\\/_/\\/____/\\/__/\\/_/ \\/_/       \\/_____/\\/_/   \\/___/  \\/_/\\/__/\\ \\/    \\/_____/\\/_/\\/_/\\/____/\\/_/\n                                                                                      \\/\n\nThe product development system for teams and agents\n\nWE'RE HIRING: https://linear.app/careers\nCHANGELOG:    https://linear.app/changelog\n \n  font-family: monospace;\n  color: #282A30;\n  "
+    }
+  ],
+  "network_failures": [
+    {
+      "url": "https://webassets.linear.app/files/ornj730p/production/36ceca0e6d3cce8e709484b134e170b44a7bd43c.mp4",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://webassets.linear.app/files/ornj730p/production/9344ec9fa397c5c003465b7d6b7174560c21507d.mp4",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://webassets.linear.app/files/ornj730p/production/e7800c833c05c533f9c2e87d379148ef64e05002.mp4",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://webassets.linear.app/files/ornj730p/production/e7800c833c05c533f9c2e87d379148ef64e05002.mp4",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://webassets.linear.app/files/ornj730p/production/e7800c833c05c533f9c2e87d379148ef64e05002.mp4",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://webassets.linear.app/files/ornj730p/production/e7800c833c05c533f9c2e87d379148ef64e05002.mp4",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://webassets.linear.app/files/ornj730p/production/9344ec9fa397c5c003465b7d6b7174560c21507d.mp4",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://webassets.linear.app/files/ornj730p/production/36ceca0e6d3cce8e709484b134e170b44a7bd43c.mp4",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://webassets.linear.app/files/ornj730p/production/e7800c833c05c533f9c2e87d379148ef64e05002.mp4",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://webassets.linear.app/files/ornj730p/production/e7800c833c05c533f9c2e87d379148ef64e05002.mp4",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://webassets.linear.app/files/ornj730p/production/e7800c833c05c533f9c2e87d379148ef64e05002.mp4",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://webassets.linear.app/files/ornj730p/production/e7800c833c05c533f9c2e87d379148ef64e05002.mp4",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://api.linear.app/report-violation",
+      "status": null,
+      "failure_text": "net::ERR_BLOCKED_BY_ORB"
+    },
+    {
+      "url": "https://webassets.linear.app/files/ornj730p/production/9344ec9fa397c5c003465b7d6b7174560c21507d.mp4",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://webassets.linear.app/files/ornj730p/production/9344ec9fa397c5c003465b7d6b7174560c21507d.mp4",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://webassets.linear.app/files/ornj730p/production/9344ec9fa397c5c003465b7d6b7174560c21507d.mp4",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://webassets.linear.app/files/ornj730p/production/9344ec9fa397c5c003465b7d6b7174560c21507d.mp4",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    }
+  ],
+  "navigation_timing": {
+    "ttfb_ms": 6236.5,
+    "dom_content_loaded_ms": 6707.5,
+    "load_event_ms": 11534.099999964237
+  },
+  "cls_score": 0.00006721520138292561,
+  "lcp_ms": 15972.0,
+  "layout_shifts": [
+    {
+      "value": 0.00006721520138292561,
+      "selector": "a.Jbvjba_tab.I_mUeq_root"
+    }
+  ],
+  "dom_issues": {
+    "broken_image_srcs": [],
+    "overflowing_selectors": [
+      "a",
+      "span",
+      "div",
+      "img"
+    ],
+    "placeholder_text_hits": []
+  },
+  "screenshot_early_path": "runs/20260729T154108Z-linear_app/screenshots/linear_app_blog_mobile_390_early.png",
+  "screenshot_settled_viewport_path": "runs/20260729T154108Z-linear_app/screenshots/linear_app_blog_mobile_390_settled_viewport.png",
+  "screenshot_settled_fullpage_path": "runs/20260729T154108Z-linear_app/screenshots/linear_app_blog_mobile_390_settled_fullpage.png",
+  "has_form": false,
+  "form_selectors": [],
+  "primary_cta": "Log in\nSign up",
+  "axe_violations": [
+    {
+      "rule_id": "button-name",
+      "impact": "critical",
+      "help": "Buttons must have discernible text",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
+      "selectors": [
+        ".TZTsQG_mobileMenuTrigger"
+      ],
+      "node_count": 1
+    },
+    {
+      "rule_id": "color-contrast",
+      "impact": "serious",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+      "selectors": [
+        "a[href$=\"introducing-loops\"] > .RTm11a_meta.dtWxxo.sc-KOGVz",
+        "a[href$=\"boom\"] > .RTm11a_meta.dtWxxo.sc-KOGVz",
+        "a[href$=\"linear-agent-bug-fix\"] > .RTm11a_meta.dtWxxo.sc-KOGVz"
+      ],
+      "node_count": 21
+    }
+  ],
+  "axe_error": null,
+  "capture_error": null,
+  "status": "ok"
+}

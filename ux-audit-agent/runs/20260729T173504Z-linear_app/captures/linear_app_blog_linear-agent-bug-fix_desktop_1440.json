@@ -1,0 +1,50 @@
+{
+  "page_url": "https://linear.app/blog/linear-agent-bug-fix",
+  "viewport": "desktop_1440",
+  "timestamp": "2026-07-29T17:38:13.922474Z",
+  "console_messages": [],
+  "network_failures": [],
+  "navigation_timing": {
+    "ttfb_ms": 852.4000000357628,
+    "dom_content_loaded_ms": 3477.5,
+    "load_event_ms": 0.0
+  },
+  "cls_score": 0.0001604437599129801,
+  "lcp_ms": 21272.0,
+  "layout_shifts": [
+    {
+      "value": 0.0001604437599129801,
+      "selector": null
+    }
+  ],
+  "dom_issues": {
+    "broken_image_srcs": [],
+    "overflowing_selectors": [],
+    "placeholder_text_hits": []
+  },
+  "screenshot_early_path": "runs/20260729T173504Z-linear_app/screenshots/linear_app_blog_linear-agent-bug-fix_desktop_1440_early.png",
+  "screenshot_settled_viewport_path": "runs/20260729T173504Z-linear_app/screenshots/linear_app_blog_linear-agent-bug-fix_desktop_1440_settled_viewport.png",
+  "screenshot_settled_fullpage_path": "runs/20260729T173504Z-linear_app/screenshots/linear_app_blog_linear-agent-bug-fix_desktop_1440_settled_fullpage.png",
+  "visually_stable": true,
+  "render_suspect": false,
+  "has_form": false,
+  "form_selectors": [],
+  "primary_cta": "Log in\nSign up",
+  "axe_violations": [
+    {
+      "rule_id": "color-contrast",
+      "impact": "serious",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+      "selectors": [
+        ".Jmh1Wq_legalLink[href$=\"privacy\"][rel=\"noopener\"]",
+        ".Jmh1Wq_legalLink[href$=\"terms\"][rel=\"noopener\"]",
+        ".Jmh1Wq_legalLink[href$=\"dpa\"][rel=\"noopener\"]"
+      ],
+      "node_count": 4
+    }
+  ],
+  "axe_error": null,
+  "capture_error": null,
+  "status": "ok"
+}

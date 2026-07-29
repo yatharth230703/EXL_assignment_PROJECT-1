@@ -1,0 +1,31 @@
+- generic [active] [ref=f1e1]:
+  - generic [ref=f1e4]:
+    - text:  Your username is invalid!
+    - link "×" [ref=f1e5] [cursor=pointer]:
+      - /url: "#"
+  - generic [ref=f1e6]:
+    - link "Fork me on GitHub":
+      - /url: https://github.com/tourdedave/the-internet
+      - img "Fork me on GitHub" [ref=f1e7] [cursor=pointer]
+    - generic [ref=f1e9]:
+      - heading "Login Page" [level=2] [ref=f1e10]
+      - heading [level=4] [ref=f1e11]:
+        - text: This is where you can log into the secure area. Enter
+        - emphasis [ref=f1e12]: tomsmith
+        - text: for the username and
+        - emphasis [ref=f1e13]: SuperSecretPassword!
+        - text: for the password. If the information is wrong you should see error messages.
+      - generic [ref=f1e14]:
+        - generic [ref=f1e16]:
+          - generic [ref=f1e17] [cursor=pointer]: Username
+          - textbox "Username" [ref=f1e18]
+        - generic [ref=f1e20]:
+          - generic [ref=f1e21] [cursor=pointer]: Password
+          - textbox "Password" [ref=f1e22]
+        - button " Login" [ref=f1e23] [cursor=pointer]
+  - generic [ref=f1e26]:
+    - separator [ref=f1e27]
+    - generic [ref=f1e28]:
+      - text: Powered by
+      - link "Elemental Selenium" [ref=f1e29] [cursor=pointer]:
+        - /url: http://elementalselenium.com/

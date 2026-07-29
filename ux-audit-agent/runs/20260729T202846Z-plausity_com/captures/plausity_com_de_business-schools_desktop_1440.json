@@ -1,0 +1,118 @@
+{
+  "page_url": "https://plausity.com/de/business-schools",
+  "viewport": "desktop_1440",
+  "timestamp": "2026-07-29T20:29:37.088282Z",
+  "console_messages": [
+    {
+      "type": "warning",
+      "text": "The resource https://plausity.com/_next/static/css/d4b7326d2b2bc71e.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally."
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://plausity.com/_next/static/css/57b89e6b24c1d92d.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally."
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://plausity.com/_next/static/css/d59481057a56faf8.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally."
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://plausity.com/_next/static/css/e0aa12043441397a.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally."
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://plausity.com/_next/static/css/121d6fdbd605637c.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally."
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://plausity.com/_next/static/css/c71f40e1487184ea.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally."
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://plausity.com/_next/static/css/1a93aeef1705bd94.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally."
+    },
+    {
+      "type": "warning",
+      "text": "The resource https://plausity.com/_next/static/css/b9e0b30dd30be925.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally."
+    },
+    {
+      "type": "error",
+      "text": "Access to XMLHttpRequest at 'https://assets.mailerlite.com/css/universal.css' from origin 'https://plausity.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+    },
+    {
+      "type": "warning",
+      "text": "Couldn't load preload assets:  ProgressEvent"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: net::ERR_FAILED"
+    }
+  ],
+  "network_failures": [
+    {
+      "url": "https://plausity.com/de/product/collaboration-workflow?_rsc=13mbm",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://plausity.com/de/product/integrations-security?_rsc=13mbm",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-MB6LVWY0F6&gtm=45je67s0v9253856882za200zd9253856882&_p=1785356979187&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1119713823.1785356979&frm=0&ngs=1&pscdl=noapi&rcb=7&sr=1440x900&uaa=arm&uab=64&uafvl=HeadlessChrome%3B149.0.7827.55%7CChromium%3B149.0.7827.55%7CNot)A%253BBrand%3B24.0.0.0&uam=&uamb=0&uap=macOS&uapv=26.3.1&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938469~118897920~118897930~119896802&sid=1785356979&sct=1&seg=0&dl=https%3A%2F%2Fplausity.com%2Fde%2Fbusiness-schools&dt=Business%20Schools%20%7C%20Plausity&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=2129",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://plausity.com/de/solutions/tech-dd?_rsc=13mbm",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://plausity.com/de/solutions/c-level-executives?_rsc=13mbm",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://plausity.com/de/about?_rsc=13mbm",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://assets.mailerlite.com/css/universal.css",
+      "status": null,
+      "failure_text": "net::ERR_FAILED"
+    }
+  ],
+  "navigation_timing": {
+    "ttfb_ms": 456.39999997615814,
+    "dom_content_loaded_ms": 835.1000000238419,
+    "load_event_ms": 5068.199999988079
+  },
+  "cls_score": 0.0006524884259259259,
+  "lcp_ms": 2584.0,
+  "layout_shifts": [
+    {
+      "value": 0.0006524884259259259,
+      "selector": null
+    }
+  ],
+  "dom_issues": {
+    "broken_image_srcs": [],
+    "overflowing_selectors": [],
+    "placeholder_text_hits": []
+  },
+  "screenshot_early_path": "runs/20260729T202846Z-plausity_com/screenshots/plausity_com_de_business-schools_desktop_1440_early.png",
+  "screenshot_settled_viewport_path": "runs/20260729T202846Z-plausity_com/screenshots/plausity_com_de_business-schools_desktop_1440_settled_viewport.png",
+  "screenshot_settled_fullpage_path": "runs/20260729T202846Z-plausity_com/screenshots/plausity_com_de_business-schools_desktop_1440_settled_fullpage.png",
+  "visually_stable": true,
+  "render_suspect": false,
+  "has_form": false,
+  "form_selectors": [],
+  "primary_cta": "Newsletter",
+  "axe_violations": [],
+  "axe_error": null,
+  "capture_error": null,
+  "status": "ok"
+}

@@ -1,0 +1,41 @@
+{
+  "page_url": "https://the-internet.herokuapp.com/abtest",
+  "viewport": "tablet_768",
+  "timestamp": "2026-07-29T15:19:48.830098Z",
+  "console_messages": [
+    {
+      "type": "error",
+      "text": "Failed to load resource: net::ERR_NAME_NOT_RESOLVED"
+    }
+  ],
+  "network_failures": [
+    {
+      "url": "https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&x298349752=298343790&n=https%3A%2F%2Fthe-internet.herokuapp.com%2Fabtest&g=298349752&u=oeu1785338391157r0.11741734089264755&wxhr=true&t=1785338391161&f=298349752,318188263",
+      "status": null,
+      "failure_text": "net::ERR_NAME_NOT_RESOLVED"
+    }
+  ],
+  "navigation_timing": {
+    "ttfb_ms": 1092.199999988079,
+    "dom_content_loaded_ms": 3347.899999976158,
+    "load_event_ms": 3347.899999976158
+  },
+  "cls_score": 0.0,
+  "lcp_ms": 3352.0,
+  "layout_shifts": [],
+  "dom_issues": {
+    "broken_image_srcs": [],
+    "overflowing_selectors": [],
+    "placeholder_text_hits": []
+  },
+  "screenshot_early_path": "runs/resumetest/screenshots/the-internet_herokuapp_com_abtest_tablet_768_early.png",
+  "screenshot_settled_viewport_path": "runs/resumetest/screenshots/the-internet_herokuapp_com_abtest_tablet_768_settled_viewport.png",
+  "screenshot_settled_fullpage_path": "runs/resumetest/screenshots/the-internet_herokuapp_com_abtest_tablet_768_settled_fullpage.png",
+  "has_form": false,
+  "form_selectors": [],
+  "primary_cta": null,
+  "axe_violations": [],
+  "axe_error": null,
+  "capture_error": null,
+  "status": "ok"
+}

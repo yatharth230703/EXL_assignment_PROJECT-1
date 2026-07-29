@@ -1,0 +1,103 @@
+{
+  "page_url": "https://linear.app/pricing",
+  "viewport": "tablet_768",
+  "timestamp": "2026-07-29T15:41:22.193626Z",
+  "console_messages": [
+    {
+      "type": "log",
+      "text": "%c __                                               _____          __          __           ______          v1.0.0\n/\\ \\       __                                    /\\  __`\\       /\\ \\      __/\\ \\__       /\\__  _\\                       \n\\ \\ \\     /\\_\\    ___      __     __     _ __    \\ \\ \\/\\ \\  _ __\\ \\ \\____/\\_\\ \\ ,_\\      \\/_/\\ \\/     ___     ___       \n \\ \\ \\  __\\/\\ \\ /' _ `\\  /'__`\\ /'__`\\  /\\`'__\\   \\ \\ \\ \\ \\/\\`'__\\ \\ '__`\\/\\ \\ \\ \\/         \\ \\ \\   /' _ `\\  /'___\\     \n  \\ \\ \\L\\ \\\\ \\ \\/\\ \\/\\ \\/\\  __//\\ \\L\\.\\_\\ \\ \\/     \\ \\ \\_\\ \\ \\ \\/ \\ \\ \\L\\ \\ \\ \\ \\ \\_  __     \\_\\ \\__/\\ \\/\\ \\/\\ \\__/  __ \n   \\ \\____/ \\ \\_\\ \\_\\ \\_\\ \\____\\ \\__/.\\_\\\\ \\_\\      \\ \\_____\\ \\_\\  \\ \\_,__/\\ \\_\\ \\__\\/\\ \\    /\\_____\\ \\_\\ \\_\\ \\____\\/\\_\\\n    \\/___/   \\/_/\\/_/\\/_/\\/____/\\/__/\\/_/ \\/_/       \\/_____/\\/_/   \\/___/  \\/_/\\/__/\\ \\/    \\/_____/\\/_/\\/_/\\/____/\\/_/\n                                                                                      \\/\n\nThe product development system for teams and agents\n\nWE'RE HIRING: https://linear.app/careers\nCHANGELOG:    https://linear.app/changelog\n \n  font-family: monospace;\n  color: #282A30;\n  "
+    }
+  ],
+  "network_failures": [],
+  "navigation_timing": {
+    "ttfb_ms": 1246.0,
+    "dom_content_loaded_ms": 1621.6000000238419,
+    "load_event_ms": 5043.699999988079
+  },
+  "cls_score": 0.0,
+  "lcp_ms": 1620.0,
+  "layout_shifts": [],
+  "dom_issues": {
+    "broken_image_srcs": [],
+    "overflowing_selectors": [
+      "div",
+      "svg",
+      "g",
+      "path"
+    ],
+    "placeholder_text_hits": []
+  },
+  "screenshot_early_path": "runs/20260729T154108Z-linear_app/screenshots/linear_app_pricing_tablet_768_early.png",
+  "screenshot_settled_viewport_path": "runs/20260729T154108Z-linear_app/screenshots/linear_app_pricing_tablet_768_settled_viewport.png",
+  "screenshot_settled_fullpage_path": "runs/20260729T154108Z-linear_app/screenshots/linear_app_pricing_tablet_768_settled_fullpage.png",
+  "has_form": false,
+  "form_selectors": [],
+  "primary_cta": "Get started",
+  "axe_violations": [
+    {
+      "rule_id": "aria-required-parent",
+      "impact": "critical",
+      "help": "Certain ARIA roles must be contained by particular parents",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/aria-required-parent?application=axeAPI",
+      "selectors": [
+        ".PDOlRq_ctaRow"
+      ],
+      "node_count": 1
+    },
+    {
+      "rule_id": "button-name",
+      "impact": "critical",
+      "help": "Buttons must have discernible text",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
+      "selectors": [
+        ".TZTsQG_mobileMenuTrigger"
+      ],
+      "node_count": 1
+    },
+    {
+      "rule_id": "select-name",
+      "impact": "critical",
+      "help": "Select element must have an accessible name",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/select-name?application=axeAPI",
+      "selectors": [
+        "select"
+      ],
+      "node_count": 1
+    },
+    {
+      "rule_id": "color-contrast",
+      "impact": "serious",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+      "selectors": [
+        "#base-ui-_R_7keben9jat6_ > .PDOlRq_labelCell[role=\"cell\"] > .ftxODV.sc-KOGVz",
+        "#base-ui-_R_74iben9jat6_ > .PDOlRq_labelCell[role=\"cell\"] > .ftxODV.sc-KOGVz",
+        ".fmNfMU"
+      ],
+      "node_count": 3
+    },
+    {
+      "rule_id": "link-in-text-block",
+      "impact": "serious",
+      "help": "Links must be distinguishable without relying on color",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/link-in-text-block?application=axeAPI",
+      "selectors": [
+        "a[href$=\"ai-credits\"]"
+      ],
+      "node_count": 1
+    },
+    {
+      "rule_id": "link-name",
+      "impact": "serious",
+      "help": "Links must have discernible text",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/link-name?application=axeAPI",
+      "selectors": [
+        ".MR81zG_logosLink"
+      ],
+      "node_count": 1
+    }
+  ],
+  "axe_error": null,
+  "capture_error": null,
+  "status": "ok"
+}

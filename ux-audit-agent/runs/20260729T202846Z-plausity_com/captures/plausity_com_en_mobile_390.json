@@ -1,0 +1,139 @@
+{
+  "page_url": "https://plausity.com/en",
+  "viewport": "mobile_390",
+  "timestamp": "2026-07-29T20:28:50.378600Z",
+  "console_messages": [
+    {
+      "type": "error",
+      "text": "Access to XMLHttpRequest at 'https://assets.mailerlite.com/css/universal.css' from origin 'https://plausity.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+    },
+    {
+      "type": "warning",
+      "text": "Couldn't load preload assets:  ProgressEvent"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: net::ERR_FAILED"
+    }
+  ],
+  "network_failures": [
+    {
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-MB6LVWY0F6&gtm=45je67s0v9253856882za200zd9253856882&_p=1785356932896&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=311591660.1785356933&frm=0&ngs=1&pscdl=noapi&rcb=6&sr=390x844&uaa=arm&uab=64&uafvl=HeadlessChrome%3B149.0.7827.55%7CChromium%3B149.0.7827.55%7CNot)A%253BBrand%3B24.0.0.0&uam=&uamb=0&uap=macOS&uapv=26.3.1&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938468~118395334~118897920~118897930~119896802&sid=1785356932&sct=1&seg=0&dl=https%3A%2F%2Fplausity.com%2Fen&dt=Plausity%20-%20AI-Powered%20Due%20Diligence%20Platform%20for%20M%26A&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=2333",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://plausity.com/videos/plausity-hero.mp4",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://plausity.com/videos/plausity-hero.mp4",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://plausity.com/en/solutions/ma-advisory-firms?_rsc=jbkes",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://plausity.com/en/solutions/vc-pe-funds?_rsc=jbkes",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://plausity.com/en/solutions/ma-project-leads?_rsc=jbkes",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://plausity.com/en/solutions/c-level-executives?_rsc=jbkes",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://plausity.com/en/product/findings-risk-intelligence?_rsc=jbkes",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://plausity.com/en/solutions/smbs?_rsc=jbkes",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://plausity.com/en/product/data-room-ingestion?_rsc=jbkes",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://plausity.com/en/product/ai-analysis-engine?_rsc=jbkes",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://plausity.com/en/product/reports-deliverables?_rsc=jbkes",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://plausity.com/en/product/collaboration-workflow?_rsc=jbkes",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://plausity.com/en/product/integrations-security?_rsc=jbkes",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://assets.mailerlite.com/css/universal.css",
+      "status": null,
+      "failure_text": "net::ERR_FAILED"
+    }
+  ],
+  "navigation_timing": {
+    "ttfb_ms": 486.89999997615814,
+    "dom_content_loaded_ms": 1097.8999999761581,
+    "load_event_ms": 3392.7999999523163
+  },
+  "cls_score": 0.0465705878265313,
+  "lcp_ms": 1180.0,
+  "layout_shifts": [
+    {
+      "value": 0.0465705878265313,
+      "selector": "section.landing_clientLogos___0w_Q"
+    }
+  ],
+  "dom_issues": {
+    "broken_image_srcs": [],
+    "overflowing_selectors": [],
+    "placeholder_text_hits": []
+  },
+  "screenshot_early_path": "runs/20260729T202846Z-plausity_com/screenshots/plausity_com_en_mobile_390_early.png",
+  "screenshot_settled_viewport_path": "runs/20260729T202846Z-plausity_com/screenshots/plausity_com_en_mobile_390_settled_viewport.png",
+  "screenshot_settled_fullpage_path": "runs/20260729T202846Z-plausity_com/screenshots/plausity_com_en_mobile_390_settled_fullpage.png",
+  "visually_stable": false,
+  "render_suspect": false,
+  "has_form": false,
+  "form_selectors": [],
+  "primary_cta": "Newsletter",
+  "axe_violations": [
+    {
+      "rule_id": "color-contrast",
+      "impact": "serious",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+      "selectors": [
+        ".landing_visionPillar__F_Kee[href$=\"vc-pe-funds\"] > .landing_visionPillarDesc__QH8lY",
+        ".landing_visionPillar__F_Kee:nth-child(2) > .landing_visionPillarDesc__QH8lY",
+        ".landing_visionPillar__F_Kee[href$=\"ma-project-leads\"] > .landing_visionPillarDesc__QH8lY"
+      ],
+      "node_count": 25
+    }
+  ],
+  "axe_error": null,
+  "capture_error": null,
+  "status": "ok"
+}

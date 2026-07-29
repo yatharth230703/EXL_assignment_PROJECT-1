@@ -1,0 +1,118 @@
+{
+  "page_url": "https://civac.de/",
+  "viewport": "tablet_768",
+  "timestamp": "2026-07-29T21:19:48.110603Z",
+  "console_messages": [],
+  "network_failures": [
+    {
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-8LP9Q70TL4&gtm=45je67s0v9253905888za200zd9253905888&_p=1785359994556&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=122976239.1785359995&frm=0&ngs=1&pscdl=noapi&rcb=0&sr=768x1024&uaa=arm&uab=64&uafvl=Chromium%3B149.0.7827.55%7CNot)A%253BBrand%3B24.0.0.0&uam=&uamb=0&uap=macOS&uapv=26.3.1&uaw=0&ul=en-gb&_s=1&tag_exp=115616986~115938466~115938469~118897920~118897930~119381664~119896802&sid=1785359994&sct=1&seg=0&dl=https%3A%2F%2Fcivac.de%2F&dt=CIVAC%20%C2%B7%20Wir%20%C3%BCbernehmen%20Compliance.%20Sie%20f%C3%BChren%20Ihr%20Unternehmen.&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=5988",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://civac.de/login?_rsc=1r34m",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://civac.de/leistungen?_rsc=1r34m",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://civac.de/en?_rsc=1r34m",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://civac.de/ueber-uns?_rsc=1r34m",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://civac.de/roles?_rsc=1r34m",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://civac.de/leistungen?_rsc=p37cr",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://civac.de/signup?_rsc=p37cr",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://civac.de/ueber-uns?_rsc=p37cr",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://civac.de/en?_rsc=p37cr",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://civac.de/news?_rsc=p37cr",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://civac.de/vorschau?_rsc=p37cr",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://civac.de/roles?_rsc=p37cr",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://civac.de/plattform?_rsc=p37cr",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    }
+  ],
+  "navigation_timing": {
+    "ttfb_ms": 904.0,
+    "dom_content_loaded_ms": 2642.699999988079,
+    "load_event_ms": 5937.199999988079
+  },
+  "cls_score": 0.0,
+  "lcp_ms": 2684.0,
+  "layout_shifts": [],
+  "dom_issues": {
+    "broken_image_srcs": [],
+    "overflowing_selectors": [
+      "span"
+    ],
+    "placeholder_text_hits": []
+  },
+  "screenshot_early_path": "runs/20260729T211945Z-civac_de/screenshots/civac_de_root_tablet_768_early.png",
+  "screenshot_settled_viewport_path": "runs/20260729T211945Z-civac_de/screenshots/civac_de_root_tablet_768_settled_viewport.png",
+  "screenshot_settled_fullpage_path": "runs/20260729T211945Z-civac_de/screenshots/civac_de_root_tablet_768_settled_fullpage.png",
+  "visually_stable": false,
+  "render_suspect": false,
+  "has_form": false,
+  "form_selectors": [],
+  "primary_cta": "Jetzt starten",
+  "axe_violations": [
+    {
+      "rule_id": "color-contrast",
+      "impact": "serious",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+      "selectors": [
+        ".sm\\:inline-flex",
+        "div:nth-child(1) > .hover\\:shadow-\\[0_12px_28px_-16px_rgba\\(10\\,32\\,54\\,0\\.16\\)\\].bg-white.p-6 > .text-muted-foreground\\/70.mt-1.text-\\[11px\\]",
+        "div:nth-child(2) > .hover\\:shadow-\\[0_12px_28px_-16px_rgba\\(10\\,32\\,54\\,0\\.16\\)\\].bg-white.p-6 > .text-muted-foreground\\/70.mt-1.text-\\[11px\\]"
+      ],
+      "node_count": 6
+    }
+  ],
+  "axe_error": null,
+  "capture_error": null,
+  "status": "ok"
+}

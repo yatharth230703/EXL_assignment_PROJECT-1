@@ -1,0 +1,514 @@
+- generic [ref=e2]:
+  - region "Notifications alt+T"
+  - link "Skip to content →":
+    - /url: "#skip-nav"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - navigation "Main" [ref=e5]:
+        - list "Site navigation" [ref=e8]:
+          - listitem [ref=e9]:
+            - link "Navigate to home" [ref=e11] [cursor=pointer]:
+              - /url: /homepage
+              - img "Linear" [ref=e12]
+          - listitem [ref=e14]:
+            - list [ref=e15]:
+              - listitem [ref=e16]:
+                - button "Product" [ref=e17] [cursor=pointer]
+              - listitem [ref=e18]:
+                - button "Resources" [ref=e19] [cursor=pointer]
+              - listitem [ref=e20]:
+                - link "Customers" [ref=e21] [cursor=pointer]:
+                  - /url: /customers
+              - listitem [ref=e22]:
+                - link "Pricing" [ref=e23] [cursor=pointer]:
+                  - /url: /pricing
+              - listitem [ref=e24]:
+                - link "Now" [ref=e25] [cursor=pointer]:
+                  - /url: /now
+              - listitem [ref=e26]:
+                - link "Contact" [ref=e27] [cursor=pointer]:
+                  - /url: /contact
+            - list [ref=e29]:
+              - listitem [ref=e30]:
+                - link "Log in" [ref=e32] [cursor=pointer]:
+                  - /url: /login
+              - listitem [ref=e33]:
+                - link "Sign up" [ref=e34] [cursor=pointer]:
+                  - /url: /signup
+    - main [ref=e35]:
+      - generic [ref=e38]:
+        - heading "Building tools for the next era of product development" [level=1] [ref=e39]
+        - paragraph [ref=e42]: AI is fundamentally changing how products get built. We are shaping what comes next.
+      - region "Media player" [ref=e45]:
+        - generic [ref=e46]:
+          - img "Linear logo" [ref=e48]
+          - generic [ref=e51]:
+            - button "Play (keyboard shortcut k)" [ref=e52] [cursor=pointer]
+            - button "Mute (keyboard shortcut m)" [ref=e56] [cursor=pointer]
+            - generic [ref=e60]:
+              - timer [ref=e62]:
+                - generic [ref=e63]: Elapsed
+                - text: 00:00
+              - slider "Seek slider" [ref=e64]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic: "Seek to:"
+                        - text: 00:00
+                    - generic:
+                      - text: /
+                      - time:
+                        - generic: Duration
+                        - text: 00:00
+              - timer [ref=e66]:
+                - generic [ref=e67]: Remaining
+                - text: −00:00
+            - combobox "Change playback rate (keyboard shortcut > or <)" [ref=e68]:
+              - option "0.25×"
+              - option "0.5×"
+              - option "0.75×"
+              - option "1×" [selected]
+              - option "1.25×"
+              - option "1.5×"
+              - option "1.75×"
+              - option "2×"
+            - button "Full screen (keyboard shortcut f)" [ref=e69] [cursor=pointer]
+      - generic [ref=e76]:
+        - heading "A new species of product tool" [level=2] [ref=e77]
+        - generic [ref=e79]:
+          - paragraph [ref=e80]: Software development is at an inflection point. Artificial intelligence is fundamentally reshaping how products are built.
+          - paragraph [ref=e81]: AI increases what teams can create, but it also raises the bar for clarity and coordination. At Linear, we are building the tools for this new era of product development. A purpose-built system where teams and agents operate together in a shared, structured environment.
+          - paragraph [ref=e82]: Founded in 2019, Linear has become the tool of choice for more than 37,000 companies (including OpenAI, Coinbase, and Ramp) to plan, build, and ship their products.
+          - paragraph [ref=e83]: Our team is distributed across North America and Europe, and we’re continuing to grow internationally. What unites us is relentless focus, fast execution, and a deep care for software craftsmanship.
+      - generic [ref=e85]:
+        - generic [ref=e88]:
+          - heading "Meet the team behind Linear" [level=2] [ref=e89]
+          - generic [ref=e90]:
+            - paragraph [ref=e92]: We are designers and engineers. Problem solvers and storytellers. We are a diverse team of individuals, all makers at heart.
+            - link "We’re hiring →" [ref=e93] [cursor=pointer]:
+              - /url: /careers
+        - generic [ref=e95]:
+          - generic [ref=e96]:
+            - link "Karri Saarinen Karri Saarinen Co-founder, CEO" [ref=e97] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/karrisaarinen/
+              - generic [ref=e98]:
+                - img "Karri Saarinen" [ref=e99]
+                - generic [ref=e100]:
+                  - generic [ref=e101]: Karri Saarinen
+                  - generic [ref=e102]: Co-founder, CEO
+            - link "Jori Lallo Jori Lallo Co-founder, CPO" [ref=e103] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/jorilallo/
+              - generic [ref=e104]:
+                - img "Jori Lallo" [ref=e105]
+                - generic [ref=e106]:
+                  - generic [ref=e107]: Jori Lallo
+                  - generic [ref=e108]: Co-founder, CPO
+            - link "Tuomas Artman Tuomas Artman Co-founder, CTO" [ref=e109] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/tuomasartman/
+              - generic [ref=e110]:
+                - img "Tuomas Artman" [ref=e111]
+                - generic [ref=e112]:
+                  - generic [ref=e113]: Tuomas Artman
+                  - generic [ref=e114]: Co-founder, CTO
+            - link "Cristina Cordova Cristina Cordova COO" [ref=e115] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/cristinajcordova/
+              - generic [ref=e116]:
+                - img "Cristina Cordova" [ref=e117]
+                - generic [ref=e118]:
+                  - generic [ref=e119]: Cristina Cordova
+                  - generic [ref=e120]: COO
+            - link "Nan Yu Nan Yu Head of Product" [ref=e121] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/thenanyu
+              - generic [ref=e122]:
+                - img "Nan Yu" [ref=e123]
+                - generic [ref=e124]:
+                  - generic [ref=e125]: Nan Yu
+                  - generic [ref=e126]: Head of Product
+            - link "Tom Moor Tom Moor Head of Engineering" [ref=e127] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/tom-moor-b6213b1ba/
+              - generic [ref=e128]:
+                - img "Tom Moor" [ref=e129]
+                - generic [ref=e130]:
+                  - generic [ref=e131]: Tom Moor
+                  - generic [ref=e132]: Head of Engineering
+            - link "Casey Bertenthal Casey Bertenthal Head of Sales" [ref=e133] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/casey-bertenthal/
+              - generic [ref=e134]:
+                - img "Casey Bertenthal" [ref=e135]
+                - generic [ref=e136]:
+                  - generic [ref=e137]: Casey Bertenthal
+                  - generic [ref=e138]: Head of Sales
+            - link "Jamie Finnigan Jamie Finnigan Head of Security" [ref=e139] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/finnigja/
+              - generic [ref=e140]:
+                - img "Jamie Finnigan" [ref=e141]
+                - generic [ref=e142]:
+                  - generic [ref=e143]: Jamie Finnigan
+                  - generic [ref=e144]: Head of Security
+          - list [ref=e145]:
+            - listitem [ref=e146]: Tim Qi
+            - listitem [ref=e147]: Matthew Roberts
+            - listitem [ref=e148]: Matthijs Wolting
+            - listitem [ref=e149]: Josh Pyles
+            - listitem [ref=e150]: Nathalie Alex
+            - listitem [ref=e151]: Dominic Wong
+            - listitem [ref=e152]: Meg Wayne
+            - listitem [ref=e153]: Mingjie Jiang
+            - listitem [ref=e154]: Alan Doyle
+            - listitem [ref=e155]: Alex Suevalov
+            - listitem [ref=e156]: Anthony Vidalez
+            - listitem [ref=e157]: Saneel Prabhu
+            - listitem [ref=e158]: Sam Candanedo
+            - listitem [ref=e159]: Max Mckone
+            - listitem [ref=e160]: Joseph Yoo
+            - listitem [ref=e161]: Igor Sechyn
+            - listitem [ref=e162]: Axel Niklasson Yun
+            - listitem [ref=e163]: Davina Baker
+            - listitem [ref=e164]: Jon Phey
+            - listitem [ref=e165]: Duong Vu
+            - listitem [ref=e166]: Rhea Purohit
+            - listitem [ref=e167]: Mufeez Amjad
+            - listitem [ref=e168]: Tony Wooster
+            - listitem [ref=e169]: Ben Kinney
+            - listitem [ref=e170]: Simone Jacobs
+            - listitem [ref=e171]: Zoe Wellner
+            - listitem [ref=e172]: Bojan Joveski
+            - listitem [ref=e173]: Yann-Edern Gillet
+            - listitem [ref=e174]: Paul Macgregor
+            - listitem [ref=e175]: Emiel Janson
+            - listitem [ref=e176]: Dylan Hamilton
+            - listitem [ref=e177]: Eitan Meisels
+            - listitem [ref=e178]: Amelia Cellar
+            - listitem [ref=e179]: Paco Coursey
+            - listitem [ref=e180]: Kristin Boyer
+            - listitem [ref=e181]: Peter Travers
+            - listitem [ref=e182]: Maciek Pekala
+            - listitem [ref=e183]: Skyline Lau
+            - listitem [ref=e184]: Jesse Hartheimer
+            - listitem [ref=e185]: Aaron Quinn
+            - listitem [ref=e186]: Lena Vu
+            - listitem [ref=e187]: Robb Böhnke
+            - listitem [ref=e188]: Jacob Shumway
+            - listitem [ref=e189]: Emil Kowalski
+            - listitem [ref=e190]: Hilary Hobel
+            - listitem [ref=e191]: Sean McGivern
+            - listitem [ref=e192]: Andreas Eldh
+            - listitem [ref=e193]: Allie Hughes
+            - listitem [ref=e194]: Uros Smolnik
+            - listitem [ref=e195]: Lauren Grant
+            - listitem [ref=e196]: Mariah Bardo
+            - listitem [ref=e197]: Romain Cascino
+            - listitem [ref=e198]: Melissa Ross
+            - listitem [ref=e199]: Maya Nedeljković Batić
+            - listitem [ref=e200]: Sean Callahan
+            - listitem [ref=e201]: Liam O’Connor
+            - listitem [ref=e202]: Sarah Barnekow
+            - listitem [ref=e203]: Adrien Griveau
+            - listitem [ref=e204]: Brando Roche
+            - listitem [ref=e205]: Katie Royer
+            - listitem [ref=e206]: Bryan Stern
+            - listitem [ref=e207]: Alexandra Lapinsky Wilson
+            - listitem [ref=e208]: Tyler Black
+            - listitem [ref=e209]: Lukas Eipert
+            - listitem [ref=e210]: Daniel Warner Smith
+            - listitem [ref=e211]: Sabin Roman
+            - listitem [ref=e212]: Luke Schneider
+            - listitem [ref=e213]: Craig Lewis
+            - listitem [ref=e214]: Mac Watrous
+            - listitem [ref=e215]: Angela King
+            - listitem [ref=e216]: Ryan Delaney
+            - listitem [ref=e217]: Maxime Heckel
+            - listitem [ref=e218]: Cormac Flynn
+            - listitem [ref=e219]: Emma Cox
+            - listitem [ref=e220]: Adam Hutchinson
+            - listitem [ref=e221]: TJ Murphy
+            - listitem [ref=e222]: Vanessa Chung
+            - listitem [ref=e223]: Steven Molchanov
+            - listitem [ref=e224]: Chris Burke
+            - listitem [ref=e225]: Devyn Galligher
+            - listitem [ref=e226]: Zachary Chukwumah
+            - listitem [ref=e227]: Brendan Carney
+            - listitem [ref=e228]: Ian Guerin
+            - listitem [ref=e229]: Jasdev Singh
+            - listitem [ref=e230]: Angela Hottinger
+            - listitem [ref=e231]: Marlene Guardado
+            - listitem [ref=e232]: Emily Brody
+            - listitem [ref=e233]: Marty McGettigan
+            - listitem [ref=e234]: Megan Coale
+            - listitem [ref=e235]: Nick Blackburn
+            - listitem [ref=e236]: Jaden Schmeisser
+            - listitem [ref=e237]: Hannes Moser
+            - listitem [ref=e238]: Connie Mills
+            - listitem [ref=e239]: Logan Mack
+            - listitem [ref=e240]: Laeka Brenninkmeyer
+            - listitem [ref=e241]: Haley Thurston
+            - listitem [ref=e242]: Grace Leman
+            - listitem [ref=e243]: Isha Kumar
+            - listitem [ref=e244]: Didier Catz
+            - listitem [ref=e245]: Drew Huppe
+            - listitem [ref=e246]: Warner Price
+            - listitem [ref=e247]: Sid Bhargava
+            - listitem [ref=e248]: Jack Mangan
+            - listitem [ref=e249]: Gino Fordiani
+            - listitem [ref=e250]: Ema Milojkovic
+            - listitem [ref=e251]: Kyle Ward
+            - listitem [ref=e252]: Ivy Murphy
+            - listitem [ref=e253]: Chris Maggio
+            - listitem [ref=e254]: Colin Dunn
+            - listitem [ref=e255]: Mel Mier
+            - listitem [ref=e256]: Guglielmo D’Anna
+            - listitem [ref=e257]: Leela Senthil Nathan
+            - listitem [ref=e258]: Brian Hendery
+            - listitem [ref=e259]: Alessandro Oddone
+            - listitem [ref=e260]: Zorast Gustavsp
+            - listitem [ref=e261]: Beth Shecterle
+            - listitem [ref=e262]: Veronika Fischer
+            - listitem [ref=e263]: Yasha Mostofi
+            - listitem [ref=e264]: Conor Muirhead
+            - listitem [ref=e265]: Colin Rutan
+            - listitem [ref=e266]: Julian Lehr
+            - listitem [ref=e267]: Alyssa Garrison
+            - listitem [ref=e268]: Allison Wei
+            - listitem [ref=e269]: Kenneth Skovhus
+            - listitem [ref=e270]: Doug Parker
+            - listitem [ref=e271]: Marcos Fiscal
+            - listitem [ref=e272]: Paul Dijou
+            - listitem [ref=e273]: Guillaume Lachaud
+            - listitem [ref=e274]: Natalie Stratton
+            - listitem [ref=e275]: Ryan Walker
+            - listitem [ref=e276]: Emer Moloney
+            - listitem [ref=e277]: Charlie Aufmann
+            - listitem [ref=e278]: Randall Koutnik
+            - listitem [ref=e279]: Dima Zaytsev
+            - listitem [ref=e280]: Logan Barragan
+            - listitem [ref=e281]: Lasse Andersen
+            - listitem [ref=e282]: Ari Mojdeh
+            - listitem [ref=e283]: Mihir Parekh
+            - listitem [ref=e284]: Seth Melchor
+            - listitem [ref=e285]: Christopher Cohen
+            - listitem [ref=e286]: James Smith
+            - listitem [ref=e287]: Róża Zgiep
+            - listitem [ref=e288]: Jeff Vaz
+            - listitem [ref=e289]: Bojan Delić
+            - listitem [ref=e290]: Andrew Moedinger
+            - listitem [ref=e291]: Matt Robone
+            - listitem [ref=e292]: Nathalie Marchino
+            - listitem [ref=e293]: Miranda Chan
+            - listitem [ref=e294]: Matt Beck
+            - listitem [ref=e295]: Shannon Hu
+      - generic [ref=e299]:
+        - heading "Backed by the best" [level=2] [ref=e300]
+        - generic [ref=e301]:
+          - generic [ref=e302]:
+            - link "Miles Clements ↗ Partner, Accel" [ref=e303] [cursor=pointer]:
+              - /url: https://www.accel.com
+              - generic [ref=e312]:
+                - generic [ref=e313]:
+                  - text: Miles Clements
+                  - generic [ref=e314]: ↗
+                - generic [ref=e315]: Partner, Accel
+            - link "Stephanie Zhan ↗ Partner, Sequoia" [ref=e316] [cursor=pointer]:
+              - /url: https://www.sequoiacap.com
+              - generic [ref=e322]:
+                - generic [ref=e323]:
+                  - text: Stephanie Zhan
+                  - generic [ref=e324]: ↗
+                - generic [ref=e325]: Partner, Sequoia
+          - list [ref=e326]:
+            - listitem [ref=e327]:
+              - generic [ref=e328]: Dylan Field
+              - generic [ref=e329]: CEO, Figma
+            - listitem [ref=e330]:
+              - generic [ref=e331]: Patrick Collison
+              - generic [ref=e332]: CEO, Stripe
+            - listitem [ref=e333]:
+              - generic [ref=e334]: Stewart Butterfield
+              - generic [ref=e335]: Former CEO, Slack
+            - listitem [ref=e336]:
+              - generic [ref=e337]: Guillermo Rauch
+              - generic [ref=e338]: CEO, Vercel
+            - listitem [ref=e339]:
+              - generic [ref=e340]: Dick Costolo
+              - generic [ref=e341]: Former CEO, Twitter
+            - listitem [ref=e342]:
+              - generic [ref=e343]: Josh Miller
+              - generic [ref=e344]: CEO, Browser Company
+            - listitem [ref=e345]:
+              - generic [ref=e346]: Andrew Mason
+              - generic [ref=e347]: CEO, Descript
+            - listitem [ref=e348]:
+              - generic [ref=e349]: Immad Akhund
+              - generic [ref=e350]: CEO, Mercury
+            - listitem [ref=e351]:
+              - generic [ref=e352]: Claire Hughes Johnson
+              - generic [ref=e353]: Former COO, Stripe
+            - listitem [ref=e354]:
+              - generic [ref=e355]: Jorn van Dijk
+              - generic [ref=e356]: CEO, Framer
+            - listitem [ref=e357]:
+              - generic [ref=e358]: Christina Cacioppo
+              - generic [ref=e359]: CEO, Vanta
+            - listitem [ref=e360]:
+              - generic [ref=e361]: Job van der Voort
+              - generic [ref=e362]: CEO, Remote
+            - listitem [ref=e363]:
+              - generic [ref=e364]: Ilkka Paananen
+              - generic [ref=e365]: CEO, Supercell
+            - listitem [ref=e366]:
+              - generic [ref=e367]: Anthony Guo
+              - generic [ref=e368]: CTO, Retool
+            - listitem [ref=e369]:
+              - generic [ref=e370]: Gustaf Alströmer
+              - generic [ref=e371]: Partner, Y Combinator
+            - listitem [ref=e372]:
+              - generic [ref=e373]: Akash Garg
+              - generic [ref=e374]: Former CTO, Afterpay
+            - listitem [ref=e375]:
+              - generic [ref=e376]: Alexis Ohanian
+              - generic [ref=e377]: Seven Seven Six
+            - listitem [ref=e378]:
+              - generic [ref=e379]: Ben Blumenfeld
+              - generic [ref=e380]: Designer Fund
+            - listitem [ref=e381]:
+              - generic [ref=e382]: Bryce Roberts
+              - generic [ref=e383]: Indie.vc
+            - listitem [ref=e384]:
+              - generic [ref=e385]: Soleio
+              - generic [ref=e386]: Designer × Investor
+      - generic [ref=e388]:
+        - heading "Built for the future. Available today." [level=2] [ref=e389]
+        - generic [ref=e390]:
+          - button "Get started" [ref=e391] [cursor=pointer]
+          - button "Contact sales" [ref=e392] [cursor=pointer]
+    - contentinfo [ref=e393]:
+      - generic [ref=e395]:
+        - link [ref=e397] [cursor=pointer]:
+          - /url: /
+          - img "Linear Logo" [ref=e398]
+        - generic [ref=e400]:
+          - heading "Product" [level=3] [ref=e401]
+          - list [ref=e402]:
+            - listitem [ref=e403]:
+              - link "Intake" [ref=e404] [cursor=pointer]:
+                - /url: /intake
+            - listitem [ref=e405]:
+              - link "Plan" [ref=e406] [cursor=pointer]:
+                - /url: /plan
+            - listitem [ref=e407]:
+              - link "Build" [ref=e408] [cursor=pointer]:
+                - /url: /build
+            - listitem [ref=e409]:
+              - link "Diffs" [ref=e410] [cursor=pointer]:
+                - /url: /diffs
+            - listitem [ref=e411]:
+              - link "Monitor" [ref=e412] [cursor=pointer]:
+                - /url: /monitor
+            - listitem [ref=e413]:
+              - link "Pricing" [ref=e414] [cursor=pointer]:
+                - /url: /pricing
+            - listitem [ref=e415]:
+              - link "Security" [ref=e416] [cursor=pointer]:
+                - /url: /security
+        - generic [ref=e417]:
+          - heading "Features" [level=3] [ref=e418]
+          - list [ref=e419]:
+            - listitem [ref=e420]:
+              - link "Asks" [ref=e421] [cursor=pointer]:
+                - /url: /asks
+            - listitem [ref=e422]:
+              - link "Agents" [ref=e423] [cursor=pointer]:
+                - /url: /agents
+            - listitem [ref=e424]:
+              - link "Coding Sessions" [ref=e425] [cursor=pointer]:
+                - /url: /coding-sessions
+            - listitem [ref=e426]:
+              - link "Customer Requests" [ref=e427] [cursor=pointer]:
+                - /url: /customer-requests
+            - listitem [ref=e428]:
+              - link "Insights" [ref=e429] [cursor=pointer]:
+                - /url: /insights
+            - listitem [ref=e430]:
+              - link "Mobile" [ref=e431] [cursor=pointer]:
+                - /url: /mobile
+            - listitem [ref=e432]:
+              - link "Integrations" [ref=e433] [cursor=pointer]:
+                - /url: /integrations
+            - listitem [ref=e434]:
+              - link "Changelog" [ref=e435] [cursor=pointer]:
+                - /url: /changelog
+        - generic [ref=e436]:
+          - heading "Company" [level=3] [ref=e437]
+          - list [ref=e438]:
+            - listitem [ref=e439]:
+              - link "About" [ref=e440] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e441]:
+              - link "Customers" [ref=e442] [cursor=pointer]:
+                - /url: /customers
+            - listitem [ref=e443]:
+              - link "Careers" [ref=e444] [cursor=pointer]:
+                - /url: /careers
+            - listitem [ref=e445]:
+              - link "Blog" [ref=e446] [cursor=pointer]:
+                - /url: /blog
+            - listitem [ref=e447]:
+              - link "Method" [ref=e448] [cursor=pointer]:
+                - /url: /method
+            - listitem [ref=e449]:
+              - link "Quality" [ref=e450] [cursor=pointer]:
+                - /url: /quality
+            - listitem [ref=e451]:
+              - link "Brand" [ref=e452] [cursor=pointer]:
+                - /url: /brand
+        - generic [ref=e453]:
+          - heading "Resources" [level=3] [ref=e454]
+          - list [ref=e455]:
+            - listitem [ref=e456]:
+              - link "Switch" [ref=e457] [cursor=pointer]:
+                - /url: /switch
+            - listitem [ref=e458]:
+              - link "Download" [ref=e459] [cursor=pointer]:
+                - /url: /download
+            - listitem [ref=e460]:
+              - link "Documentation" [ref=e461] [cursor=pointer]:
+                - /url: /docs
+            - listitem [ref=e463]:
+              - link "Developers" [ref=e464] [cursor=pointer]:
+                - /url: /developers
+            - listitem [ref=e465]:
+              - link "Status" [ref=e466] [cursor=pointer]:
+                - /url: https://linearstatus.com
+            - listitem [ref=e467]:
+              - link "Enterprise" [ref=e468] [cursor=pointer]:
+                - /url: /enterprise
+            - listitem [ref=e469]:
+              - link "Startups" [ref=e470] [cursor=pointer]:
+                - /url: /startups
+        - generic [ref=e471]:
+          - heading "Connect" [level=3] [ref=e472]
+          - list [ref=e473]:
+            - listitem [ref=e474]:
+              - link "Contact us" [ref=e475] [cursor=pointer]:
+                - /url: /contact
+            - listitem [ref=e476]:
+              - link "Community" [ref=e477] [cursor=pointer]:
+                - /url: https://linear.app/join-slack
+            - listitem [ref=e478]:
+              - link "X (Twitter)" [ref=e479] [cursor=pointer]:
+                - /url: https://x.com/linear
+            - listitem [ref=e480]:
+              - link "GitHub" [ref=e481] [cursor=pointer]:
+                - /url: https://github.com/linear
+            - listitem [ref=e482]:
+              - link "YouTube" [ref=e483] [cursor=pointer]:
+                - /url: https://www.youtube.com/@linear
+        - generic [ref=e485]:
+          - link "Privacy" [ref=e486] [cursor=pointer]:
+            - /url: /privacy
+          - link "Terms" [ref=e487] [cursor=pointer]:
+            - /url: /terms
+          - link "DPA" [ref=e488] [cursor=pointer]:
+            - /url: /dpa
+          - link "AUP" [ref=e489] [cursor=pointer]:
+            - /url: /legal/aup

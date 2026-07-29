@@ -1,0 +1,83 @@
+{
+  "page_url": "https://linear.app/build",
+  "viewport": "tablet_768",
+  "timestamp": "2026-07-29T17:13:43.586006Z",
+  "console_messages": [
+    {
+      "type": "log",
+      "text": "%c __                                               _____          __          __           ______          v1.0.0\n/\\ \\       __                                    /\\  __`\\       /\\ \\      __/\\ \\__       /\\__  _\\                       \n\\ \\ \\     /\\_\\    ___      __     __     _ __    \\ \\ \\/\\ \\  _ __\\ \\ \\____/\\_\\ \\ ,_\\      \\/_/\\ \\/     ___     ___       \n \\ \\ \\  __\\/\\ \\ /' _ `\\  /'__`\\ /'__`\\  /\\`'__\\   \\ \\ \\ \\ \\/\\`'__\\ \\ '__`\\/\\ \\ \\ \\/         \\ \\ \\   /' _ `\\  /'___\\     \n  \\ \\ \\L\\ \\\\ \\ \\/\\ \\/\\ \\/\\  __//\\ \\L\\.\\_\\ \\ \\/     \\ \\ \\_\\ \\ \\ \\/ \\ \\ \\L\\ \\ \\ \\ \\ \\_  __     \\_\\ \\__/\\ \\/\\ \\/\\ \\__/  __ \n   \\ \\____/ \\ \\_\\ \\_\\ \\_\\ \\____\\ \\__/.\\_\\\\ \\_\\      \\ \\_____\\ \\_\\  \\ \\_,__/\\ \\_\\ \\__\\/\\ \\    /\\_____\\ \\_\\ \\_\\ \\____\\/\\_\\\n    \\/___/   \\/_/\\/_/\\/_/\\/____/\\/__/\\/_/ \\/_/       \\/_____/\\/_/   \\/___/  \\/_/\\/__/\\ \\/    \\/_____/\\/_/\\/_/\\/____/\\/_/\n                                                                                      \\/\n\nThe product development system for teams and agents\n\nWE'RE HIRING: https://linear.app/careers\nCHANGELOG:    https://linear.app/changelog\n \n  font-family: monospace;\n  color: #282A30;\n  "
+    }
+  ],
+  "network_failures": [
+    {
+      "url": "https://static.linear.app/assets/hero/BUILD-v3.output.av1.crf24.mp4",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://api.linear.app/report-violation",
+      "status": null,
+      "failure_text": "net::ERR_BLOCKED_BY_ORB"
+    }
+  ],
+  "navigation_timing": {
+    "ttfb_ms": 93.30000001192093,
+    "dom_content_loaded_ms": 1142.1000000238419,
+    "load_event_ms": 0.0
+  },
+  "cls_score": 0.0007388045390446981,
+  "lcp_ms": 24032.0,
+  "layout_shifts": [
+    {
+      "value": 0.0007388045390446981,
+      "selector": "::before"
+    }
+  ],
+  "dom_issues": {
+    "broken_image_srcs": [],
+    "overflowing_selectors": [
+      "div",
+      "a",
+      "figure",
+      "img",
+      "svg",
+      "rect",
+      "figcaption"
+    ],
+    "placeholder_text_hits": []
+  },
+  "screenshot_early_path": "runs/20260729T170907Z-linear_app/screenshots/linear_app_build_tablet_768_early.png",
+  "screenshot_settled_viewport_path": "runs/20260729T170907Z-linear_app/screenshots/linear_app_build_tablet_768_settled_viewport.png",
+  "screenshot_settled_fullpage_path": "runs/20260729T170907Z-linear_app/screenshots/linear_app_build_tablet_768_settled_fullpage.png",
+  "visually_stable": true,
+  "has_form": false,
+  "form_selectors": [],
+  "primary_cta": "Log in\nSign up",
+  "axe_violations": [
+    {
+      "rule_id": "button-name",
+      "impact": "critical",
+      "help": "Buttons must have discernible text",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
+      "selectors": [
+        ".TZTsQG_mobileMenuTrigger"
+      ],
+      "node_count": 1
+    },
+    {
+      "rule_id": "color-contrast",
+      "impact": "serious",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+      "selectors": [
+        "#base-ui-_R_6qcan9jat6_ > .b-30Va_action.ImRUSq_align-center.ImRUSq_root > .ejipgV.Fzcv4W_slashedZero",
+        "#base-ui-_R_7acan9jat6_ > .b-30Va_action.ImRUSq_align-center.ImRUSq_root > .ejipgV.Fzcv4W_slashedZero",
+        "#base-ui-_R_1qcen9jat6_ > .b-30Va_action.ImRUSq_align-center.ImRUSq_root > .ejipgV.Fzcv4W_slashedZero"
+      ],
+      "node_count": 13
+    }
+  ],
+  "axe_error": null,
+  "capture_error": null,
+  "status": "ok"
+}

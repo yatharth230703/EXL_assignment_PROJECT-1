@@ -1,0 +1,49 @@
+{
+  "page_url": "https://linear.app/blog/introducing-loops",
+  "viewport": "desktop_1440",
+  "timestamp": "2026-07-29T17:11:42.793504Z",
+  "console_messages": [],
+  "network_failures": [],
+  "navigation_timing": {
+    "ttfb_ms": 1129.6000000238419,
+    "dom_content_loaded_ms": 2600.100000023842,
+    "load_event_ms": 0.0
+  },
+  "cls_score": 9.731331447187927e-6,
+  "lcp_ms": 21796.0,
+  "layout_shifts": [
+    {
+      "value": 9.731331447187927e-6,
+      "selector": "a.TZTsQG_anchor.I_mUeq_root"
+    }
+  ],
+  "dom_issues": {
+    "broken_image_srcs": [],
+    "overflowing_selectors": [],
+    "placeholder_text_hits": []
+  },
+  "screenshot_early_path": "runs/20260729T170907Z-linear_app/screenshots/linear_app_blog_introducing-loops_desktop_1440_early.png",
+  "screenshot_settled_viewport_path": "runs/20260729T170907Z-linear_app/screenshots/linear_app_blog_introducing-loops_desktop_1440_settled_viewport.png",
+  "screenshot_settled_fullpage_path": "runs/20260729T170907Z-linear_app/screenshots/linear_app_blog_introducing-loops_desktop_1440_settled_fullpage.png",
+  "visually_stable": true,
+  "has_form": false,
+  "form_selectors": [],
+  "primary_cta": "Log in\nSign up",
+  "axe_violations": [
+    {
+      "rule_id": "color-contrast",
+      "impact": "serious",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+      "selectors": [
+        ".Jmh1Wq_legalLink[href$=\"privacy\"][rel=\"noopener\"]",
+        ".Jmh1Wq_legalLink[href$=\"terms\"][rel=\"noopener\"]",
+        ".Jmh1Wq_legalLink[href$=\"dpa\"][rel=\"noopener\"]"
+      ],
+      "node_count": 4
+    }
+  ],
+  "axe_error": null,
+  "capture_error": null,
+  "status": "ok"
+}

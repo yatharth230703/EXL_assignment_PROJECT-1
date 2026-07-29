@@ -1,0 +1,90 @@
+{
+  "page_url": "https://civac.de/agb",
+  "viewport": "mobile_390",
+  "timestamp": "2026-07-29T21:16:22.843786Z",
+  "console_messages": [],
+  "network_failures": [
+    {
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-8LP9Q70TL4&gtm=45je67s0h1v9253905888za200zd9253905888&_p=1785359788207&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1361558660.1785359788&frm=0&ngs=1&pscdl=noapi&rcb=7&sr=390x844&uaa=arm&uab=64&uafvl=HeadlessChrome%3B149.0.7827.55%7CChromium%3B149.0.7827.55%7CNot)A%253BBrand%3B24.0.0.0&uam=&uamb=0&uap=macOS&uapv=26.3.1&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938469~118395334~118897920~118897930~119896802&sid=1785359788&sct=1&seg=0&dl=https%3A%2F%2Fcivac.de%2Fagb&dt=AGB%20%C2%B7%20CIVAC&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=5347",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://civac.de/signup?_rsc=1odgr",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://civac.de/en/terms?_rsc=1odgr",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://civac.de/agb?_rsc=seer5",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://civac.de/en/terms?_rsc=seer5",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://civac.de/signup?_rsc=seer5",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://civac.de/?_rsc=seer5",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://civac.de/roles/compliance-beauftragter?_rsc=1odgr",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://civac.de/roles/informationssicherheitsbeauftragter?_rsc=1odgr",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://civac.de/roles/datenschutzbeauftragter?_rsc=1odgr",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    }
+  ],
+  "navigation_timing": {
+    "ttfb_ms": 492.30000001192093,
+    "dom_content_loaded_ms": 886.8000000119209,
+    "load_event_ms": 5306.0
+  },
+  "cls_score": 0.0005780219353413745,
+  "lcp_ms": 1372.0,
+  "layout_shifts": [
+    {
+      "value": 0.0005780219353413745,
+      "selector": "div.flex.items-center"
+    }
+  ],
+  "dom_issues": {
+    "broken_image_srcs": [],
+    "overflowing_selectors": [
+      "span"
+    ],
+    "placeholder_text_hits": []
+  },
+  "screenshot_early_path": "runs/20260729T211605Z-civac_de/screenshots/civac_de_agb_mobile_390_early.png",
+  "screenshot_settled_viewport_path": "runs/20260729T211605Z-civac_de/screenshots/civac_de_agb_mobile_390_settled_viewport.png",
+  "screenshot_settled_fullpage_path": "runs/20260729T211605Z-civac_de/screenshots/civac_de_agb_mobile_390_settled_fullpage.png",
+  "visually_stable": false,
+  "render_suspect": false,
+  "has_form": false,
+  "form_selectors": [],
+  "primary_cta": "Jetzt starten",
+  "axe_violations": [],
+  "axe_error": null,
+  "capture_error": null,
+  "status": "ok"
+}

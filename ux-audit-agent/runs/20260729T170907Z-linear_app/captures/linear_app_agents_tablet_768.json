@@ -1,0 +1,58 @@
+{
+  "page_url": "https://linear.app/agents",
+  "viewport": "tablet_768",
+  "timestamp": "2026-07-29T17:12:18.797606Z",
+  "console_messages": [],
+  "network_failures": [],
+  "navigation_timing": {
+    "ttfb_ms": 1292.300000011921,
+    "dom_content_loaded_ms": 2593.600000023842,
+    "load_event_ms": 0.0
+  },
+  "cls_score": 0.0,
+  "lcp_ms": 16712.0,
+  "layout_shifts": [],
+  "dom_issues": {
+    "broken_image_srcs": [],
+    "overflowing_selectors": [
+      "div",
+      "header",
+      "span",
+      "svg",
+      "path"
+    ],
+    "placeholder_text_hits": []
+  },
+  "screenshot_early_path": "runs/20260729T170907Z-linear_app/screenshots/linear_app_agents_tablet_768_early.png",
+  "screenshot_settled_viewport_path": "runs/20260729T170907Z-linear_app/screenshots/linear_app_agents_tablet_768_settled_viewport.png",
+  "screenshot_settled_fullpage_path": "runs/20260729T170907Z-linear_app/screenshots/linear_app_agents_tablet_768_settled_fullpage.png",
+  "visually_stable": true,
+  "has_form": false,
+  "form_selectors": [],
+  "primary_cta": "Watch example",
+  "axe_violations": [
+    {
+      "rule_id": "button-name",
+      "impact": "critical",
+      "help": "Buttons must have discernible text",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
+      "selectors": [
+        ".TZTsQG_mobileMenuTrigger"
+      ],
+      "node_count": 1
+    },
+    {
+      "rule_id": "scrollable-region-focusable",
+      "impact": "serious",
+      "help": "Scrollable region must have keyboard access",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/scrollable-region-focusable?application=axeAPI",
+      "selectors": [
+        ".TZzLFq_scroller"
+      ],
+      "node_count": 1
+    }
+  ],
+  "axe_error": null,
+  "capture_error": null,
+  "status": "ok"
+}

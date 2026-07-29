@@ -1,0 +1,67 @@
+{
+  "page_url": "https://linear.app/blog/linear-agent-bug-fix",
+  "viewport": "desktop_1440",
+  "timestamp": "2026-07-29T18:41:16.358485Z",
+  "console_messages": [
+    {
+      "type": "log",
+      "text": "%c __                                               _____          __          __           ______          v1.0.0\n/\\ \\       __                                    /\\  __`\\       /\\ \\      __/\\ \\__       /\\__  _\\                       \n\\ \\ \\     /\\_\\    ___      __     __     _ __    \\ \\ \\/\\ \\  _ __\\ \\ \\____/\\_\\ \\ ,_\\      \\/_/\\ \\/     ___     ___       \n \\ \\ \\  __\\/\\ \\ /' _ `\\  /'__`\\ /'__`\\  /\\`'__\\   \\ \\ \\ \\ \\/\\`'__\\ \\ '__`\\/\\ \\ \\ \\/         \\ \\ \\   /' _ `\\  /'___\\     \n  \\ \\ \\L\\ \\\\ \\ \\/\\ \\/\\ \\/\\  __//\\ \\L\\.\\_\\ \\ \\/     \\ \\ \\_\\ \\ \\ \\/ \\ \\ \\L\\ \\ \\ \\ \\ \\_  __     \\_\\ \\__/\\ \\/\\ \\/\\ \\__/  __ \n   \\ \\____/ \\ \\_\\ \\_\\ \\_\\ \\____\\ \\__/.\\_\\\\ \\_\\      \\ \\_____\\ \\_\\  \\ \\_,__/\\ \\_\\ \\__\\/\\ \\    /\\_____\\ \\_\\ \\_\\ \\____\\/\\_\\\n    \\/___/   \\/_/\\/_/\\/_/\\/____/\\/__/\\/_/ \\/_/       \\/_____/\\/_/   \\/___/  \\/_/\\/__/\\ \\/    \\/_____/\\/_/\\/_/\\/____/\\/_/\n                                                                                      \\/\n\nThe product development system for teams and agents\n\nWE'RE HIRING: https://linear.app/careers\nCHANGELOG:    https://linear.app/changelog\n \n  font-family: monospace;\n  color: #282A30;\n  "
+    }
+  ],
+  "network_failures": [
+    {
+      "url": "https://api.linear.app/report-violation",
+      "status": null,
+      "failure_text": "net::ERR_BLOCKED_BY_ORB"
+    }
+  ],
+  "navigation_timing": {
+    "ttfb_ms": 836.6999999880791,
+    "dom_content_loaded_ms": 968.3999999761581,
+    "load_event_ms": 1128.800000011921
+  },
+  "cls_score": 0.0,
+  "lcp_ms": 1060.0,
+  "layout_shifts": [],
+  "dom_issues": {
+    "broken_image_srcs": [],
+    "overflowing_selectors": [],
+    "placeholder_text_hits": []
+  },
+  "screenshot_early_path": "runs/20260729T183931Z-linear_app/screenshots/linear_app_blog_linear-agent-bug-fix_desktop_1440_early.png",
+  "screenshot_settled_viewport_path": "runs/20260729T183931Z-linear_app/screenshots/linear_app_blog_linear-agent-bug-fix_desktop_1440_settled_viewport.png",
+  "screenshot_settled_fullpage_path": "runs/20260729T183931Z-linear_app/screenshots/linear_app_blog_linear-agent-bug-fix_desktop_1440_settled_fullpage.png",
+  "visually_stable": true,
+  "render_suspect": false,
+  "has_form": false,
+  "form_selectors": [],
+  "primary_cta": "Log in\nSign up",
+  "axe_violations": [
+    {
+      "rule_id": "button-name",
+      "impact": "critical",
+      "help": "Buttons must have discernible text",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
+      "selectors": [
+        "button[data-state=\"on\"]",
+        "button[data-state=\"off\"]"
+      ],
+      "node_count": 2
+    },
+    {
+      "rule_id": "color-contrast",
+      "impact": "serious",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+      "selectors": [
+        ".Jmh1Wq_legalLink[href$=\"privacy\"][rel=\"noopener\"]",
+        ".Jmh1Wq_legalLink[href$=\"terms\"][rel=\"noopener\"]",
+        ".Jmh1Wq_legalLink[href$=\"dpa\"][rel=\"noopener\"]"
+      ],
+      "node_count": 4
+    }
+  ],
+  "axe_error": null,
+  "capture_error": null,
+  "status": "ok"
+}

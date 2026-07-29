@@ -1,0 +1,90 @@
+{
+  "page_url": "https://linear.app/",
+  "viewport": "mobile_390",
+  "timestamp": "2026-07-29T15:41:10.033885Z",
+  "console_messages": [
+    {
+      "type": "log",
+      "text": "%c __                                               _____          __          __           ______          v1.0.0\n/\\ \\       __                                    /\\  __`\\       /\\ \\      __/\\ \\__       /\\__  _\\                       \n\\ \\ \\     /\\_\\    ___      __     __     _ __    \\ \\ \\/\\ \\  _ __\\ \\ \\____/\\_\\ \\ ,_\\      \\/_/\\ \\/     ___     ___       \n \\ \\ \\  __\\/\\ \\ /' _ `\\  /'__`\\ /'__`\\  /\\`'__\\   \\ \\ \\ \\ \\/\\`'__\\ \\ '__`\\/\\ \\ \\ \\/         \\ \\ \\   /' _ `\\  /'___\\     \n  \\ \\ \\L\\ \\\\ \\ \\/\\ \\/\\ \\/\\  __//\\ \\L\\.\\_\\ \\ \\/     \\ \\ \\_\\ \\ \\ \\/ \\ \\ \\L\\ \\ \\ \\ \\ \\_  __     \\_\\ \\__/\\ \\/\\ \\/\\ \\__/  __ \n   \\ \\____/ \\ \\_\\ \\_\\ \\_\\ \\____\\ \\__/.\\_\\\\ \\_\\      \\ \\_____\\ \\_\\  \\ \\_,__/\\ \\_\\ \\__\\/\\ \\    /\\_____\\ \\_\\ \\_\\ \\____\\/\\_\\\n    \\/___/   \\/_/\\/_/\\/_/\\/____/\\/__/\\/_/ \\/_/       \\/_____/\\/_/   \\/___/  \\/_/\\/__/\\ \\/    \\/_____/\\/_/\\/_/\\/____/\\/_/\n                                                                                      \\/\n\nThe product development system for teams and agents\n\nWE'RE HIRING: https://linear.app/careers\nCHANGELOG:    https://linear.app/changelog\n \n  font-family: monospace;\n  color: #282A30;\n  "
+    }
+  ],
+  "network_failures": [
+    {
+      "url": "https://static.linear.app/assets/homepage/pulse-audio.mp3",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    }
+  ],
+  "navigation_timing": {
+    "ttfb_ms": 2626.099999964237,
+    "dom_content_loaded_ms": 3192.399999976158,
+    "load_event_ms": 4500.599999964237
+  },
+  "cls_score": 0.0,
+  "lcp_ms": 8228.0,
+  "layout_shifts": [],
+  "dom_issues": {
+    "broken_image_srcs": [],
+    "overflowing_selectors": [
+      "div"
+    ],
+    "placeholder_text_hits": [
+      "Todo"
+    ]
+  },
+  "screenshot_early_path": "runs/20260729T154108Z-linear_app/screenshots/linear_app_root_mobile_390_early.png",
+  "screenshot_settled_viewport_path": "runs/20260729T154108Z-linear_app/screenshots/linear_app_root_mobile_390_settled_viewport.png",
+  "screenshot_settled_fullpage_path": "runs/20260729T154108Z-linear_app/screenshots/linear_app_root_mobile_390_settled_fullpage.png",
+  "has_form": false,
+  "form_selectors": [],
+  "primary_cta": "Log in\nSign up",
+  "axe_violations": [
+    {
+      "rule_id": "button-name",
+      "impact": "critical",
+      "help": "Buttons must have discernible text",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
+      "selectors": [
+        ".TZTsQG_mobileMenuTrigger",
+        ".CV-gUa_buttonBase.ImRUSq_align-center",
+        ".w9ZFkq_commentButton:nth-child(1)"
+      ],
+      "node_count": 6
+    },
+    {
+      "rule_id": "color-contrast",
+      "impact": "serious",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+      "selectors": [
+        ".I_mUeq_root[href$=\"intake\"][rel=\"noopener\"] > .b-30Va_action.ImRUSq_align-center.ImRUSq_root > .ejipgV.Fzcv4W_slashedZero.sc-KOGVz",
+        ".I_mUeq_root[href$=\"plan\"][rel=\"noopener\"] > .b-30Va_action.ImRUSq_align-center.ImRUSq_root > .ejipgV.Fzcv4W_slashedZero.sc-KOGVz",
+        ".I_mUeq_root[href$=\"build\"][rel=\"noopener\"] > .b-30Va_action.ImRUSq_align-center.ImRUSq_root > .ejipgV.Fzcv4W_slashedZero.sc-KOGVz"
+      ],
+      "node_count": 5
+    },
+    {
+      "rule_id": "link-name",
+      "impact": "serious",
+      "help": "Links must have discernible text",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/link-name?application=axeAPI",
+      "selectors": [
+        ".MR81zG_logosLink"
+      ],
+      "node_count": 1
+    },
+    {
+      "rule_id": "scrollable-region-focusable",
+      "impact": "serious",
+      "help": "Scrollable region must have keyboard access",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/scrollable-region-focusable?application=axeAPI",
+      "selectors": [
+        ".-B0yXq_root:nth-child(12) > .NAY0wa_root.NAY0wa_variant-inset.NAY0wa_align-start > .NAY0wa_content.Fzcv4W_hideScrollbars"
+      ],
+      "node_count": 1
+    }
+  ],
+  "axe_error": null,
+  "capture_error": null,
+  "status": "ok"
+}

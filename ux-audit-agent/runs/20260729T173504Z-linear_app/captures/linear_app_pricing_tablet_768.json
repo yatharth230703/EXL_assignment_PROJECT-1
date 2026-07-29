@@ -1,0 +1,99 @@
+{
+  "page_url": "https://linear.app/pricing",
+  "viewport": "tablet_768",
+  "timestamp": "2026-07-29T17:35:32.080976Z",
+  "console_messages": [],
+  "network_failures": [],
+  "navigation_timing": {
+    "ttfb_ms": 101.80000001192093,
+    "dom_content_loaded_ms": 1326.800000011921,
+    "load_event_ms": 0.0
+  },
+  "cls_score": 0.0,
+  "lcp_ms": 1428.0,
+  "layout_shifts": [],
+  "dom_issues": {
+    "broken_image_srcs": [],
+    "overflowing_selectors": [
+      "div",
+      "svg",
+      "path"
+    ],
+    "placeholder_text_hits": []
+  },
+  "screenshot_early_path": "runs/20260729T173504Z-linear_app/screenshots/linear_app_pricing_tablet_768_early.png",
+  "screenshot_settled_viewport_path": "runs/20260729T173504Z-linear_app/screenshots/linear_app_pricing_tablet_768_settled_viewport.png",
+  "screenshot_settled_fullpage_path": "runs/20260729T173504Z-linear_app/screenshots/linear_app_pricing_tablet_768_settled_fullpage.png",
+  "visually_stable": true,
+  "render_suspect": false,
+  "has_form": false,
+  "form_selectors": [],
+  "primary_cta": "Get started",
+  "axe_violations": [
+    {
+      "rule_id": "aria-required-parent",
+      "impact": "critical",
+      "help": "Certain ARIA roles must be contained by particular parents",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/aria-required-parent?application=axeAPI",
+      "selectors": [
+        ".PDOlRq_ctaRow"
+      ],
+      "node_count": 1
+    },
+    {
+      "rule_id": "button-name",
+      "impact": "critical",
+      "help": "Buttons must have discernible text",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
+      "selectors": [
+        ".TZTsQG_mobileMenuTrigger"
+      ],
+      "node_count": 1
+    },
+    {
+      "rule_id": "select-name",
+      "impact": "critical",
+      "help": "Select element must have an accessible name",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/select-name?application=axeAPI",
+      "selectors": [
+        "select"
+      ],
+      "node_count": 1
+    },
+    {
+      "rule_id": "color-contrast",
+      "impact": "serious",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+      "selectors": [
+        "#base-ui-_R_7keben9jat6_ > .PDOlRq_labelCell[role=\"cell\"] > .ftxODV.sc-KOGVz",
+        "#base-ui-_R_74iben9jat6_ > .PDOlRq_labelCell[role=\"cell\"] > .ftxODV.sc-KOGVz",
+        ".fmNfMU"
+      ],
+      "node_count": 3
+    },
+    {
+      "rule_id": "link-in-text-block",
+      "impact": "serious",
+      "help": "Links must be distinguishable without relying on color",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/link-in-text-block?application=axeAPI",
+      "selectors": [
+        "a[href$=\"ai-credits\"]"
+      ],
+      "node_count": 1
+    },
+    {
+      "rule_id": "link-name",
+      "impact": "serious",
+      "help": "Links must have discernible text",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/link-name?application=axeAPI",
+      "selectors": [
+        ".MR81zG_logosLink"
+      ],
+      "node_count": 1
+    }
+  ],
+  "axe_error": null,
+  "capture_error": null,
+  "status": "ok"
+}

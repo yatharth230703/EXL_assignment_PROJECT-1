@@ -1,0 +1,56 @@
+{
+  "page_url": "https://the-internet.herokuapp.com/download",
+  "viewport": "mobile_390",
+  "timestamp": "2026-07-29T20:22:33.953365Z",
+  "console_messages": [
+    {
+      "type": "error",
+      "text": "Failed to load resource: net::ERR_NAME_NOT_RESOLVED"
+    }
+  ],
+  "network_failures": [
+    {
+      "url": "https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=https%3A%2F%2Fthe-internet.herokuapp.com%2Fdownload&u=oeu1785356556330r0.6529013235531204&wxhr=true&t=1785356556335&f=298349752,318188263",
+      "status": null,
+      "failure_text": "net::ERR_NAME_NOT_RESOLVED"
+    }
+  ],
+  "navigation_timing": {
+    "ttfb_ms": 1138.5999999642372,
+    "dom_content_loaded_ms": 3454.2999999523163,
+    "load_event_ms": 3454.5
+  },
+  "cls_score": 0.0,
+  "lcp_ms": 3468.0,
+  "layout_shifts": [],
+  "dom_issues": {
+    "broken_image_srcs": [],
+    "overflowing_selectors": [],
+    "placeholder_text_hits": []
+  },
+  "screenshot_early_path": "runs/20260729T202154Z-the-internet_herokuapp_com/screenshots/the-internet_herokuapp_com_download_mobile_390_early.png",
+  "screenshot_settled_viewport_path": "runs/20260729T202154Z-the-internet_herokuapp_com/screenshots/the-internet_herokuapp_com_download_mobile_390_settled_viewport.png",
+  "screenshot_settled_fullpage_path": "runs/20260729T202154Z-the-internet_herokuapp_com/screenshots/the-internet_herokuapp_com_download_mobile_390_settled_fullpage.png",
+  "visually_stable": true,
+  "render_suspect": false,
+  "has_form": false,
+  "form_selectors": [],
+  "primary_cta": null,
+  "axe_violations": [
+    {
+      "rule_id": "color-contrast",
+      "impact": "serious",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+      "selectors": [
+        "a[href$=\"long-doc.txt\"]",
+        "a[href$=\"tandil.jpg\"]",
+        "a[href$=\"test_upload.txt\"]"
+      ],
+      "node_count": 22
+    }
+  ],
+  "axe_error": null,
+  "capture_error": null,
+  "status": "ok"
+}

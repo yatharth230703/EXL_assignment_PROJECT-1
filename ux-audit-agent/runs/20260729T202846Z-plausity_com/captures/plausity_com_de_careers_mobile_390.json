@@ -1,0 +1,94 @@
+{
+  "page_url": "https://plausity.com/de/careers",
+  "viewport": "mobile_390",
+  "timestamp": "2026-07-29T20:29:43.465877Z",
+  "console_messages": [
+    {
+      "type": "error",
+      "text": "Access to XMLHttpRequest at 'https://assets.mailerlite.com/css/universal.css' from origin 'https://plausity.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+    },
+    {
+      "type": "warning",
+      "text": "Couldn't load preload assets:  ProgressEvent"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: net::ERR_FAILED"
+    }
+  ],
+  "network_failures": [
+    {
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-MB6LVWY0F6&gtm=45je67s0v9253856882za200zd9253856882&_p=1785356985713&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1726780342.1785356986&frm=0&ngs=1&pscdl=noapi&rcb=3&sr=390x844&uaa=arm&uab=64&uafvl=HeadlessChrome%3B149.0.7827.55%7CChromium%3B149.0.7827.55%7CNot)A%253BBrand%3B24.0.0.0&uam=&uamb=0&uap=macOS&uapv=26.3.1&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938469~118897920~118897930~119896803&sid=1785356985&sct=1&seg=0&dl=https%3A%2F%2Fplausity.com%2Fde%2Fcareers&dt=Karriere%20bei%20Plausity%20%E2%80%94%20Gestalten%20Sie%20die%20Zukunft%20der%20DD&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=2255",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://plausity.com/de/product/findings-risk-intelligence?_rsc=1y6hv",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://plausity.com/de/product/integrations-security?_rsc=1y6hv",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://plausity.com/de/solutions/organisation-compliance-dd?_rsc=1y6hv",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://plausity.com/de/solutions/tax-dd?_rsc=1y6hv",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://plausity.com/de/solutions/cybersecurity-dd?_rsc=1y6hv",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://assets.mailerlite.com/css/universal.css",
+      "status": null,
+      "failure_text": "net::ERR_FAILED"
+    }
+  ],
+  "navigation_timing": {
+    "ttfb_ms": 453.5,
+    "dom_content_loaded_ms": 880.0,
+    "load_event_ms": 2172.2999999523163
+  },
+  "cls_score": 0.0,
+  "lcp_ms": 940.0,
+  "layout_shifts": [],
+  "dom_issues": {
+    "broken_image_srcs": [],
+    "overflowing_selectors": [],
+    "placeholder_text_hits": []
+  },
+  "screenshot_early_path": "runs/20260729T202846Z-plausity_com/screenshots/plausity_com_de_careers_mobile_390_early.png",
+  "screenshot_settled_viewport_path": "runs/20260729T202846Z-plausity_com/screenshots/plausity_com_de_careers_mobile_390_settled_viewport.png",
+  "screenshot_settled_fullpage_path": "runs/20260729T202846Z-plausity_com/screenshots/plausity_com_de_careers_mobile_390_settled_fullpage.png",
+  "visually_stable": true,
+  "render_suspect": false,
+  "has_form": false,
+  "form_selectors": [],
+  "primary_cta": "Newsletter",
+  "axe_violations": [
+    {
+      "rule_id": "color-contrast",
+      "impact": "serious",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+      "selectors": [
+        ".careers_valueItem__x7mNM:nth-child(1) > .careers_valueDesc__WIvqv",
+        ".careers_valueItem__x7mNM:nth-child(2) > .careers_valueDesc__WIvqv",
+        ".careers_valueItem__x7mNM:nth-child(3) > .careers_valueDesc__WIvqv"
+      ],
+      "node_count": 3
+    }
+  ],
+  "axe_error": null,
+  "capture_error": null,
+  "status": "ok"
+}

@@ -1,0 +1,79 @@
+{
+  "page_url": "https://linear.app/pricing",
+  "viewport": "desktop_1440",
+  "timestamp": "2026-07-29T17:09:32.901362Z",
+  "console_messages": [],
+  "network_failures": [],
+  "navigation_timing": {
+    "ttfb_ms": 69.60000002384186,
+    "dom_content_loaded_ms": 1171.4000000357628,
+    "load_event_ms": 0.0
+  },
+  "cls_score": 9.731331447187927e-6,
+  "lcp_ms": 12236.0,
+  "layout_shifts": [
+    {
+      "value": 9.731331447187927e-6,
+      "selector": "a.TZTsQG_anchor.I_mUeq_root"
+    }
+  ],
+  "dom_issues": {
+    "broken_image_srcs": [],
+    "overflowing_selectors": [],
+    "placeholder_text_hits": []
+  },
+  "screenshot_early_path": "runs/20260729T170907Z-linear_app/screenshots/linear_app_pricing_desktop_1440_early.png",
+  "screenshot_settled_viewport_path": "runs/20260729T170907Z-linear_app/screenshots/linear_app_pricing_desktop_1440_settled_viewport.png",
+  "screenshot_settled_fullpage_path": "runs/20260729T170907Z-linear_app/screenshots/linear_app_pricing_desktop_1440_settled_fullpage.png",
+  "visually_stable": true,
+  "has_form": false,
+  "form_selectors": [],
+  "primary_cta": "Get started",
+  "axe_violations": [
+    {
+      "rule_id": "aria-required-parent",
+      "impact": "critical",
+      "help": "Certain ARIA roles must be contained by particular parents",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/aria-required-parent?application=axeAPI",
+      "selectors": [
+        ".PDOlRq_ctaRow"
+      ],
+      "node_count": 1
+    },
+    {
+      "rule_id": "color-contrast",
+      "impact": "serious",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+      "selectors": [
+        "#base-ui-_R_7keben9jat6_ > .PDOlRq_labelCell[role=\"cell\"] > .ftxODV.sc-KOGVz",
+        "#base-ui-_R_74iben9jat6_ > .PDOlRq_labelCell[role=\"cell\"] > .ftxODV.sc-KOGVz",
+        ".fmNfMU"
+      ],
+      "node_count": 7
+    },
+    {
+      "rule_id": "link-in-text-block",
+      "impact": "serious",
+      "help": "Links must be distinguishable without relying on color",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/link-in-text-block?application=axeAPI",
+      "selectors": [
+        "a[href$=\"ai-credits\"]"
+      ],
+      "node_count": 1
+    },
+    {
+      "rule_id": "link-name",
+      "impact": "serious",
+      "help": "Links must have discernible text",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/link-name?application=axeAPI",
+      "selectors": [
+        ".MR81zG_logosLink"
+      ],
+      "node_count": 1
+    }
+  ],
+  "axe_error": null,
+  "capture_error": null,
+  "status": "ok"
+}

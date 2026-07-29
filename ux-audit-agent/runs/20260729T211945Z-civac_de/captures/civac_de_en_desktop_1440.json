@@ -1,0 +1,32 @@
+{
+  "page_url": "https://civac.de/en",
+  "viewport": "desktop_1440",
+  "timestamp": "2026-07-29T21:20:50.692323Z",
+  "console_messages": [],
+  "network_failures": [],
+  "navigation_timing": {
+    "ttfb_ms": null,
+    "dom_content_loaded_ms": null,
+    "load_event_ms": null
+  },
+  "cls_score": null,
+  "lcp_ms": null,
+  "layout_shifts": [],
+  "dom_issues": {
+    "broken_image_srcs": [],
+    "overflowing_selectors": [],
+    "placeholder_text_hits": []
+  },
+  "screenshot_early_path": "runs/20260729T211945Z-civac_de/screenshots/civac_de_en_desktop_1440_early.png",
+  "screenshot_settled_viewport_path": null,
+  "screenshot_settled_fullpage_path": null,
+  "visually_stable": false,
+  "render_suspect": false,
+  "has_form": false,
+  "form_selectors": [],
+  "primary_cta": null,
+  "axe_violations": [],
+  "axe_error": null,
+  "capture_error": "TargetClosedError: Page.screenshot: Target page, context or browser has been closed",
+  "status": "error"
+}

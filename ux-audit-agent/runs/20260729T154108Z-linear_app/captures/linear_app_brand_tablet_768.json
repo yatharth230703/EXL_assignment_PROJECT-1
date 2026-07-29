@@ -1,0 +1,73 @@
+{
+  "page_url": "https://linear.app/brand",
+  "viewport": "tablet_768",
+  "timestamp": "2026-07-29T15:43:39.147602Z",
+  "console_messages": [
+    {
+      "type": "error",
+      "text": "Error: <feBlend> attribute mode: Unrecognized enumerated value, \"plus-lighter\"."
+    },
+    {
+      "type": "log",
+      "text": "%c __                                               _____          __          __           ______          v1.0.0\n/\\ \\       __                                    /\\  __`\\       /\\ \\      __/\\ \\__       /\\__  _\\                       \n\\ \\ \\     /\\_\\    ___      __     __     _ __    \\ \\ \\/\\ \\  _ __\\ \\ \\____/\\_\\ \\ ,_\\      \\/_/\\ \\/     ___     ___       \n \\ \\ \\  __\\/\\ \\ /' _ `\\  /'__`\\ /'__`\\  /\\`'__\\   \\ \\ \\ \\ \\/\\`'__\\ \\ '__`\\/\\ \\ \\ \\/         \\ \\ \\   /' _ `\\  /'___\\     \n  \\ \\ \\L\\ \\\\ \\ \\/\\ \\/\\ \\/\\  __//\\ \\L\\.\\_\\ \\ \\/     \\ \\ \\_\\ \\ \\ \\/ \\ \\ \\L\\ \\ \\ \\ \\ \\_  __     \\_\\ \\__/\\ \\/\\ \\/\\ \\__/  __ \n   \\ \\____/ \\ \\_\\ \\_\\ \\_\\ \\____\\ \\__/.\\_\\\\ \\_\\      \\ \\_____\\ \\_\\  \\ \\_,__/\\ \\_\\ \\__\\/\\ \\    /\\_____\\ \\_\\ \\_\\ \\____\\/\\_\\\n    \\/___/   \\/_/\\/_/\\/_/\\/____/\\/__/\\/_/ \\/_/       \\/_____/\\/_/   \\/___/  \\/_/\\/__/\\ \\/    \\/_____/\\/_/\\/_/\\/____/\\/_/\n                                                                                      \\/\n\nThe product development system for teams and agents\n\nWE'RE HIRING: https://linear.app/careers\nCHANGELOG:    https://linear.app/changelog\n \n  font-family: monospace;\n  color: #282A30;\n  "
+    }
+  ],
+  "network_failures": [
+    {
+      "url": "https://api.linear.app/report-violation",
+      "status": null,
+      "failure_text": "net::ERR_BLOCKED_BY_ORB"
+    }
+  ],
+  "navigation_timing": {
+    "ttfb_ms": 449.69999998807907,
+    "dom_content_loaded_ms": 637.1999999880791,
+    "load_event_ms": 1201.0999999642372
+  },
+  "cls_score": 0.0004409224493429065,
+  "lcp_ms": 748.0,
+  "layout_shifts": [
+    {
+      "value": 0.0004409224493429065,
+      "selector": null
+    }
+  ],
+  "dom_issues": {
+    "broken_image_srcs": [],
+    "overflowing_selectors": [],
+    "placeholder_text_hits": []
+  },
+  "screenshot_early_path": "runs/20260729T154108Z-linear_app/screenshots/linear_app_brand_tablet_768_early.png",
+  "screenshot_settled_viewport_path": "runs/20260729T154108Z-linear_app/screenshots/linear_app_brand_tablet_768_settled_viewport.png",
+  "screenshot_settled_fullpage_path": "runs/20260729T154108Z-linear_app/screenshots/linear_app_brand_tablet_768_settled_fullpage.png",
+  "has_form": false,
+  "form_selectors": [],
+  "primary_cta": "Log in\nSign up",
+  "axe_violations": [
+    {
+      "rule_id": "button-name",
+      "impact": "critical",
+      "help": "Buttons must have discernible text",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
+      "selectors": [
+        ".TZTsQG_mobileMenuTrigger"
+      ],
+      "node_count": 1
+    },
+    {
+      "rule_id": "nested-interactive",
+      "impact": "serious",
+      "help": "Interactive controls must not be nested",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/nested-interactive?application=axeAPI",
+      "selectors": [
+        ".m5H9fW_section:nth-child(5) > .m5H9fW_grid > .m5H9fW_asset[data-theme=\"dark\"]",
+        ".m5H9fW_section:nth-child(5) > .m5H9fW_grid > .m5H9fW_asset[data-theme=\"light\"]",
+        ".m5H9fW_section:nth-child(6) > .m5H9fW_grid > .m5H9fW_asset[data-theme=\"dark\"]"
+      ],
+      "node_count": 7
+    }
+  ],
+  "axe_error": null,
+  "capture_error": null,
+  "status": "ok"
+}

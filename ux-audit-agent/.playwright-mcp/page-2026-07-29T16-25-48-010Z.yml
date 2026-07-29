@@ -1,0 +1,654 @@
+- generic [ref=e2]:
+  - region "Notifications alt+T"
+  - link "Skip to content →":
+    - /url: "#skip-nav"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - navigation "Main" [ref=e5]:
+        - list "Site navigation" [ref=e8]:
+          - listitem [ref=e9]:
+            - link "Navigate to home" [ref=e11] [cursor=pointer]:
+              - /url: /homepage
+              - img "Linear" [ref=e12]
+          - listitem [ref=e14]:
+            - list [ref=e15]:
+              - listitem [ref=e16]:
+                - button "Product" [ref=e17] [cursor=pointer]
+              - listitem [ref=e18]:
+                - button "Resources" [ref=e19] [cursor=pointer]
+              - listitem [ref=e20]:
+                - link "Customers" [ref=e21] [cursor=pointer]:
+                  - /url: /customers
+              - listitem [ref=e22]:
+                - link "Pricing" [ref=e23] [cursor=pointer]:
+                  - /url: /pricing
+              - listitem [ref=e24]:
+                - link "Now" [ref=e25] [cursor=pointer]:
+                  - /url: /now
+              - listitem [ref=e26]:
+                - link "Contact" [ref=e27] [cursor=pointer]:
+                  - /url: /contact
+            - list [ref=e29]:
+              - listitem [ref=e30]:
+                - link "Log in" [ref=e32] [cursor=pointer]:
+                  - /url: /login
+              - listitem [ref=e33]:
+                - link "Sign up" [ref=e34] [cursor=pointer]:
+                  - /url: /signup
+    - main [ref=e35]:
+      - generic [ref=e36]:
+        - generic [ref=e37]:
+          - generic [ref=e40]:
+            - generic [ref=e41]: Linear for Agents
+            - heading "Artificial colleagues. Natural collaboration." [level=1] [ref=e44]:
+              - generic [ref=e45]: Artificial colleagues.
+              - generic [ref=e46]: Natural collaboration.
+            - paragraph [ref=e48]:
+              - generic [ref=e49]: Build and deploy AI agents that work alongside you as teammates. Work on complex tasks together or delegate entire issues end-to-end.
+            - button "Watch example" [active] [ref=e53] [cursor=pointer]
+          - generic [ref=e59]:
+            - generic [ref=e61]:
+              - generic [ref=e63] [cursor=pointer]:
+                - generic [ref=e65]:
+                  - img "Linear" [ref=e67]
+                  - generic [ref=e68]: Linear
+                - generic [ref=e80]:
+                  - paragraph [ref=e85]: what are the three most important customer requests around permissions? add them to the Access Controls project
+                  - paragraph [ref=e88]: Reply…
+              - generic [ref=e108] [cursor=pointer]:
+                - generic [ref=e110]:
+                  - img "Linear" [ref=e112]
+                  - generic [ref=e113]: Linear
+                - generic [ref=e125]:
+                  - generic [ref=e128]:
+                    - paragraph [ref=e130]: Review today’s mobile triage and group the issues by what should happen next
+                    - generic [ref=e131]:
+                      - generic [ref=e136]: Mobile Triage
+                      - generic [ref=e137]: added to context
+                  - paragraph [ref=e140]: Reply…
+              - generic [ref=e160] [cursor=pointer]:
+                - generic [ref=e162]:
+                  - img "Linear" [ref=e164]
+                  - generic [ref=e165]: Linear
+                - generic [ref=e177]:
+                  - generic [ref=e180]:
+                    - paragraph [ref=e182]: What could delay the API launch?
+                    - generic [ref=e183]:
+                      - generic [ref=e187]: API launch
+                      - generic [ref=e188]: added to context
+                  - paragraph [ref=e191]: Reply…
+              - generic [ref=e211] [cursor=pointer]:
+                - generic [ref=e213]:
+                  - img "Linear" [ref=e215]
+                  - generic [ref=e216]: Linear
+                - generic [ref=e228]:
+                  - generic [ref=e231]:
+                    - paragraph [ref=e233]: how does notification grouping work today, and where should we change it?
+                    - generic [ref=e234]:
+                      - generic [ref=e239]: Notification Grouping
+                      - generic [ref=e240]: added to context
+                  - paragraph [ref=e243]: Reply…
+              - generic [ref=e263] [cursor=pointer]:
+                - generic [ref=e264]: Cursor
+                - generic [ref=e281]:
+                  - generic [ref=e284]:
+                    - paragraph [ref=e286]: add retry handling for failed image uploads described in this issue
+                    - generic [ref=e287]:
+                      - generic [ref=e292]: ENG-2844
+                      - generic [ref=e293]: added to context
+                  - paragraph [ref=e296]: Reply…
+              - generic [ref=e316] [cursor=pointer]:
+                - generic [ref=e318]:
+                  - img "ChatPRD" [ref=e320]
+                  - generic [ref=e321]: ChatPRD
+                - generic [ref=e333]:
+                  - generic [ref=e336]:
+                    - paragraph [ref=e338]: review this issue, draft complete offline mode requirements, and break the work into sub-issues
+                    - generic [ref=e339]:
+                      - generic [ref=e344]: ENG-2521
+                      - generic [ref=e345]: added to context
+                  - paragraph [ref=e348]: Reply…
+              - generic [ref=e368] [cursor=pointer]:
+                - generic [ref=e370]:
+                  - img "Linear" [ref=e372]
+                  - generic [ref=e373]: Linear
+                - generic [ref=e385]:
+                  - generic [ref=e388]:
+                    - paragraph [ref=e390]: Fix the dimmed ride rows that never reset and open a PR
+                    - generic [ref=e391]:
+                      - generic [ref=e396]: DRV-364
+                      - generic [ref=e397]: added to context
+                  - paragraph [ref=e400]: Reply…
+              - generic [ref=e420] [cursor=pointer]:
+                - generic [ref=e422]:
+                  - img "Linear" [ref=e424]
+                  - generic [ref=e425]: Linear
+                - generic [ref=e437]:
+                  - paragraph [ref=e442]: what are the three most important customer requests around permissions? add them to the Access Controls project
+                  - paragraph [ref=e445]: Reply…
+              - generic [ref=e465] [cursor=pointer]:
+                - generic [ref=e467]:
+                  - img "Linear" [ref=e469]
+                  - generic [ref=e470]: Linear
+                - generic [ref=e482]:
+                  - generic [ref=e485]:
+                    - paragraph [ref=e487]: Review today’s mobile triage and group the issues by what should happen next
+                    - generic [ref=e488]:
+                      - generic [ref=e493]: Mobile Triage
+                      - generic [ref=e494]: added to context
+                  - paragraph [ref=e497]: Reply…
+              - generic [ref=e517] [cursor=pointer]:
+                - generic [ref=e519]:
+                  - img "Linear" [ref=e521]
+                  - generic [ref=e522]: Linear
+                - generic [ref=e534]:
+                  - generic [ref=e537]:
+                    - paragraph [ref=e539]: What could delay the API launch?
+                    - generic [ref=e540]:
+                      - generic [ref=e544]: API launch
+                      - generic [ref=e545]: added to context
+                  - paragraph [ref=e548]: Reply…
+              - generic [ref=e568] [cursor=pointer]:
+                - generic [ref=e570]:
+                  - img "Linear" [ref=e572]
+                  - generic [ref=e573]: Linear
+                - generic [ref=e585]:
+                  - generic [ref=e588]:
+                    - paragraph [ref=e590]: how does notification grouping work today, and where should we change it?
+                    - generic [ref=e591]:
+                      - generic [ref=e596]: Notification Grouping
+                      - generic [ref=e597]: added to context
+                  - paragraph [ref=e600]: Reply…
+              - generic [ref=e620] [cursor=pointer]:
+                - generic [ref=e621]: Cursor
+                - generic [ref=e638]:
+                  - generic [ref=e641]:
+                    - paragraph [ref=e643]: add retry handling for failed image uploads described in this issue
+                    - generic [ref=e644]:
+                      - generic [ref=e649]: ENG-2844
+                      - generic [ref=e650]: added to context
+                  - paragraph [ref=e653]: Reply…
+              - generic [ref=e673] [cursor=pointer]:
+                - generic [ref=e675]:
+                  - img "ChatPRD" [ref=e677]
+                  - generic [ref=e678]: ChatPRD
+                - generic [ref=e690]:
+                  - generic [ref=e693]:
+                    - paragraph [ref=e695]: review this issue, draft complete offline mode requirements, and break the work into sub-issues
+                    - generic [ref=e696]:
+                      - generic [ref=e701]: ENG-2521
+                      - generic [ref=e702]: added to context
+                  - paragraph [ref=e705]: Reply…
+              - generic [ref=e725] [cursor=pointer]:
+                - generic [ref=e727]:
+                  - img "Linear" [ref=e729]
+                  - generic [ref=e730]: Linear
+                - generic [ref=e742]:
+                  - generic [ref=e745]:
+                    - paragraph [ref=e747]: Fix the dimmed ride rows that never reset and open a PR
+                    - generic [ref=e748]:
+                      - generic [ref=e753]: DRV-364
+                      - generic [ref=e754]: added to context
+                  - paragraph [ref=e757]: Reply…
+              - generic [ref=e777] [cursor=pointer]:
+                - generic [ref=e779]:
+                  - img "Linear" [ref=e781]
+                  - generic [ref=e782]: Linear
+                - generic [ref=e794]:
+                  - paragraph [ref=e799]: what are the three most important customer requests around permissions? add them to the Access Controls project
+                  - paragraph [ref=e802]: Reply…
+              - generic [ref=e822] [cursor=pointer]:
+                - generic [ref=e824]:
+                  - img "Linear" [ref=e826]
+                  - generic [ref=e827]: Linear
+                - generic [ref=e839]:
+                  - generic [ref=e842]:
+                    - paragraph [ref=e844]: Review today’s mobile triage and group the issues by what should happen next
+                    - generic [ref=e845]:
+                      - generic [ref=e850]: Mobile Triage
+                      - generic [ref=e851]: added to context
+                  - paragraph [ref=e854]: Reply…
+              - generic [ref=e874] [cursor=pointer]:
+                - generic [ref=e876]:
+                  - img "Linear" [ref=e878]
+                  - generic [ref=e879]: Linear
+                - generic [ref=e891]:
+                  - generic [ref=e894]:
+                    - paragraph [ref=e896]: What could delay the API launch?
+                    - generic [ref=e897]:
+                      - generic [ref=e901]: API launch
+                      - generic [ref=e902]: added to context
+                  - paragraph [ref=e905]: Reply…
+              - generic [ref=e925] [cursor=pointer]:
+                - generic [ref=e927]:
+                  - img "Linear" [ref=e929]
+                  - generic [ref=e930]: Linear
+                - generic [ref=e942]:
+                  - generic [ref=e945]:
+                    - paragraph [ref=e947]: how does notification grouping work today, and where should we change it?
+                    - generic [ref=e948]:
+                      - generic [ref=e953]: Notification Grouping
+                      - generic [ref=e954]: added to context
+                  - paragraph [ref=e957]: Reply…
+              - generic [ref=e977] [cursor=pointer]:
+                - generic [ref=e978]: Cursor
+                - generic [ref=e995]:
+                  - generic [ref=e998]:
+                    - paragraph [ref=e1000]: add retry handling for failed image uploads described in this issue
+                    - generic [ref=e1001]:
+                      - generic [ref=e1006]: ENG-2844
+                      - generic [ref=e1007]: added to context
+                  - paragraph [ref=e1010]: Reply…
+              - generic [ref=e1030] [cursor=pointer]:
+                - generic [ref=e1032]:
+                  - img "ChatPRD" [ref=e1034]
+                  - generic [ref=e1035]: ChatPRD
+                - generic [ref=e1047]:
+                  - generic [ref=e1050]:
+                    - paragraph [ref=e1052]: review this issue, draft complete offline mode requirements, and break the work into sub-issues
+                    - generic [ref=e1053]:
+                      - generic [ref=e1058]: ENG-2521
+                      - generic [ref=e1059]: added to context
+                  - paragraph [ref=e1062]: Reply…
+              - generic [ref=e1082] [cursor=pointer]:
+                - generic [ref=e1084]:
+                  - img "Linear" [ref=e1086]
+                  - generic [ref=e1087]: Linear
+                - generic [ref=e1099]:
+                  - generic [ref=e1102]:
+                    - paragraph [ref=e1104]: Fix the dimmed ride rows that never reset and open a PR
+                    - generic [ref=e1105]:
+                      - generic [ref=e1110]: DRV-364
+                      - generic [ref=e1111]: added to context
+                  - paragraph [ref=e1114]: Reply…
+              - generic [ref=e1134] [cursor=pointer]:
+                - generic [ref=e1136]:
+                  - img "Linear" [ref=e1138]
+                  - generic [ref=e1139]: Linear
+                - generic [ref=e1151]:
+                  - paragraph [ref=e1156]: what are the three most important customer requests around permissions? add them to the Access Controls project
+                  - paragraph [ref=e1159]: Reply…
+              - generic [ref=e1179] [cursor=pointer]:
+                - generic [ref=e1181]:
+                  - img "Linear" [ref=e1183]
+                  - generic [ref=e1184]: Linear
+                - generic [ref=e1196]:
+                  - generic [ref=e1199]:
+                    - paragraph [ref=e1201]: Review today’s mobile triage and group the issues by what should happen next
+                    - generic [ref=e1202]:
+                      - generic [ref=e1207]: Mobile Triage
+                      - generic [ref=e1208]: added to context
+                  - paragraph [ref=e1211]: Reply…
+              - generic [ref=e1231] [cursor=pointer]:
+                - generic [ref=e1233]:
+                  - img "Linear" [ref=e1235]
+                  - generic [ref=e1236]: Linear
+                - generic [ref=e1248]:
+                  - generic [ref=e1251]:
+                    - paragraph [ref=e1253]: What could delay the API launch?
+                    - generic [ref=e1254]:
+                      - generic [ref=e1258]: API launch
+                      - generic [ref=e1259]: added to context
+                  - paragraph [ref=e1262]: Reply…
+              - generic [ref=e1282] [cursor=pointer]:
+                - generic [ref=e1284]:
+                  - img "Linear" [ref=e1286]
+                  - generic [ref=e1287]: Linear
+                - generic [ref=e1299]:
+                  - generic [ref=e1302]:
+                    - paragraph [ref=e1304]: how does notification grouping work today, and where should we change it?
+                    - generic [ref=e1305]:
+                      - generic [ref=e1310]: Notification Grouping
+                      - generic [ref=e1311]: added to context
+                  - paragraph [ref=e1314]: Reply…
+              - generic [ref=e1334] [cursor=pointer]:
+                - generic [ref=e1335]: Cursor
+                - generic [ref=e1352]:
+                  - generic [ref=e1355]:
+                    - paragraph [ref=e1357]: add retry handling for failed image uploads described in this issue
+                    - generic [ref=e1358]:
+                      - generic [ref=e1363]: ENG-2844
+                      - generic [ref=e1364]: added to context
+                  - paragraph [ref=e1367]: Reply…
+              - generic [ref=e1387] [cursor=pointer]:
+                - generic [ref=e1389]:
+                  - img "ChatPRD" [ref=e1391]
+                  - generic [ref=e1392]: ChatPRD
+                - generic [ref=e1404]:
+                  - generic [ref=e1407]:
+                    - paragraph [ref=e1409]: review this issue, draft complete offline mode requirements, and break the work into sub-issues
+                    - generic [ref=e1410]:
+                      - generic [ref=e1415]: ENG-2521
+                      - generic [ref=e1416]: added to context
+                  - paragraph [ref=e1419]: Reply…
+              - generic [ref=e1439] [cursor=pointer]:
+                - generic [ref=e1441]:
+                  - img "Linear" [ref=e1443]
+                  - generic [ref=e1444]: Linear
+                - generic [ref=e1456]:
+                  - generic [ref=e1459]:
+                    - paragraph [ref=e1461]: Fix the dimmed ride rows that never reset and open a PR
+                    - generic [ref=e1462]:
+                      - generic [ref=e1467]: DRV-364
+                      - generic [ref=e1468]: added to context
+                  - paragraph [ref=e1471]: Reply…
+              - generic [ref=e1491] [cursor=pointer]:
+                - generic [ref=e1493]:
+                  - img "Linear" [ref=e1495]
+                  - generic [ref=e1496]: Linear
+                - generic [ref=e1508]:
+                  - paragraph [ref=e1513]: what are the three most important customer requests around permissions? add them to the Access Controls project
+                  - paragraph [ref=e1516]: Reply…
+              - generic [ref=e1536] [cursor=pointer]:
+                - generic [ref=e1538]:
+                  - img "Linear" [ref=e1540]
+                  - generic [ref=e1541]: Linear
+                - generic [ref=e1553]:
+                  - generic [ref=e1556]:
+                    - paragraph [ref=e1558]: Review today’s mobile triage and group the issues by what should happen next
+                    - generic [ref=e1559]:
+                      - generic [ref=e1564]: Mobile Triage
+                      - generic [ref=e1565]: added to context
+                  - paragraph [ref=e1568]: Reply…
+              - generic [ref=e1588] [cursor=pointer]:
+                - generic [ref=e1590]:
+                  - img "Linear" [ref=e1592]
+                  - generic [ref=e1593]: Linear
+                - generic [ref=e1605]:
+                  - generic [ref=e1608]:
+                    - paragraph [ref=e1610]: What could delay the API launch?
+                    - generic [ref=e1611]:
+                      - generic [ref=e1615]: API launch
+                      - generic [ref=e1616]: added to context
+                  - paragraph [ref=e1619]: Reply…
+              - generic [ref=e1639] [cursor=pointer]:
+                - generic [ref=e1641]:
+                  - img "Linear" [ref=e1643]
+                  - generic [ref=e1644]: Linear
+                - generic [ref=e1656]:
+                  - generic [ref=e1659]:
+                    - paragraph [ref=e1661]: how does notification grouping work today, and where should we change it?
+                    - generic [ref=e1662]:
+                      - generic [ref=e1667]: Notification Grouping
+                      - generic [ref=e1668]: added to context
+                  - paragraph [ref=e1671]: Reply…
+              - generic [ref=e1691] [cursor=pointer]:
+                - generic [ref=e1692]: Cursor
+                - generic [ref=e1709]:
+                  - generic [ref=e1712]:
+                    - paragraph [ref=e1714]: add retry handling for failed image uploads described in this issue
+                    - generic [ref=e1715]:
+                      - generic [ref=e1720]: ENG-2844
+                      - generic [ref=e1721]: added to context
+                  - paragraph [ref=e1724]: Reply…
+              - generic [ref=e1744] [cursor=pointer]:
+                - generic [ref=e1746]:
+                  - img "ChatPRD" [ref=e1748]
+                  - generic [ref=e1749]: ChatPRD
+                - generic [ref=e1761]:
+                  - generic [ref=e1764]:
+                    - paragraph [ref=e1766]: review this issue, draft complete offline mode requirements, and break the work into sub-issues
+                    - generic [ref=e1767]:
+                      - generic [ref=e1772]: ENG-2521
+                      - generic [ref=e1773]: added to context
+                  - paragraph [ref=e1776]: Reply…
+              - generic [ref=e1796] [cursor=pointer]:
+                - generic [ref=e1798]:
+                  - img "Linear" [ref=e1800]
+                  - generic [ref=e1801]: Linear
+                - generic [ref=e1813]:
+                  - generic [ref=e1816]:
+                    - paragraph [ref=e1818]: Fix the dimmed ride rows that never reset and open a PR
+                    - generic [ref=e1819]:
+                      - generic [ref=e1824]: DRV-364
+                      - generic [ref=e1825]: added to context
+                  - paragraph [ref=e1828]: Reply…
+            - generic [ref=e1847]:
+              - paragraph [ref=e1848]:
+                - generic [ref=e1849]: Identify urgent tasks
+                - text: Identify urgent tasks
+              - generic [ref=e1850]:
+                - button "Previous panel" [ref=e1851] [cursor=pointer]
+                - button "Next panel" [ref=e1854] [cursor=pointer]
+        - generic [ref=e1858]:
+          - generic [ref=e1859]:
+            - heading "Delegate, automate, and orchestrate work" [level=2] [ref=e1861]
+            - paragraph [ref=e1863]: Choose from a variety of AI agents and start delegating work, from code generation to other technical tasks.
+          - main [ref=e1864]:
+            - generic [ref=e1867]:
+              - figure [ref=e1868]:
+                - generic [ref=e1869]:
+                  - heading "Fast, focused, and reliable. Just like the rest of your team." [level=3] [ref=e1870]
+                  - paragraph [ref=e1871]: Agents are full members of your Linear workspace. Assign them to issues, add them to projects, or @mention them in comments.
+              - figure [ref=e1872]:
+                - generic [ref=e1873]:
+                  - heading "Delegate issues, but not accountability" [level=3] [ref=e1874]
+                  - paragraph [ref=e1875]: When an issue gets delegated to an agent, the human user remains the primary assignee, while the agent is added as a contributor.
+              - figure [ref=e1876]:
+                - generic [ref=e1877]:
+                  - heading "Stay in the loop every step of the way" [level=3] [ref=e1878]
+                  - paragraph [ref=e1879]: Agents act on your behalf, but never in the dark. Understand every change they make at a glance, or inspect the underlying reasoning.
+              - figure [ref=e1880]:
+                - generic [ref=e1881]:
+                  - heading "Orchestrate tasks at scale" [level=3] [ref=e1882]
+                  - paragraph [ref=e1883]: Agents can work across multiple issues simultaneously. Select tasks, assign them to an agent, and watch work move forward.
+        - generic [ref=e1884]:
+          - generic [ref=e1885]:
+            - heading "Agents for every use case, ready to deploy" [level=2] [ref=e1887]
+            - generic [ref=e1888]:
+              - paragraph [ref=e1889]: From coding to QA, bring specialized agents into your Linear workspace and start delegating work across your team's workflows.
+              - link "Explore all agents →" [ref=e1891] [cursor=pointer]:
+                - /url: /integrations/agents
+                - generic [ref=e1892]:
+                  - generic [ref=e1893]: Explore all agents
+                  - generic [ref=e1894]: →
+          - main [ref=e1895]:
+            - generic [ref=e1896]:
+              - figure [ref=e1897]:
+                - img "Linear logo" [ref=e1899]
+                - generic [ref=e1902]:
+                  - heading "Linear Agent" [level=3] [ref=e1903]
+                  - paragraph [ref=e1904]: Triage issues, answer questions, and create follow-up work directly in Linear.
+              - link [ref=e1905] [cursor=pointer]:
+                - /url: /integrations/cursor
+                - figure [ref=e1906]:
+                  - generic [ref=e1911]:
+                    - heading "Cursor" [level=3] [ref=e1912]
+                    - paragraph [ref=e1913]: Drafts branches from assigned issues, ready to finish in your editor.
+              - link [ref=e1914] [cursor=pointer]:
+                - /url: /integrations/codex
+                - figure [ref=e1915]:
+                  - generic [ref=e1920]:
+                    - heading "OpenAI Codex" [level=3] [ref=e1921]
+                    - paragraph [ref=e1922]: Coding agent that can take on entire tasks on your behalf, straight from Linear.
+            - generic [ref=e1924]:
+              - link "Devin Scopes issues and drafts PRs" [ref=e1925] [cursor=pointer]:
+                - /url: /integrations/devin
+                - generic [ref=e1931]:
+                  - paragraph [ref=e1932]:
+                    - generic [ref=e1933]: Devin
+                  - paragraph [ref=e1935]: Scopes issues and drafts PRs
+              - link "Sentry Runs root cause analysis and fixes issues with Seer" [ref=e1936] [cursor=pointer]:
+                - /url: /integrations/sentry
+                - generic [ref=e1940]:
+                  - paragraph [ref=e1941]:
+                    - generic [ref=e1942]: Sentry
+                  - paragraph [ref=e1944]: Runs root cause analysis and fixes issues with Seer
+              - link "ChatPRD Writes requirements, manages issues, and gives feedback" [ref=e1945] [cursor=pointer]:
+                - /url: /integrations/chatprd
+                - generic [ref=e1952]:
+                  - paragraph [ref=e1953]:
+                    - generic [ref=e1954]: ChatPRD
+                  - paragraph [ref=e1956]: Writes requirements, manages issues, and gives feedback
+              - link "Oz by Warp Answers questions, fixes bugs, and explores ideas" [ref=e1957] [cursor=pointer]:
+                - /url: /integrations/warp
+                - generic [ref=e1962]:
+                  - paragraph [ref=e1963]:
+                    - generic [ref=e1964]: Oz by Warp
+                  - paragraph [ref=e1966]: Answers questions, fixes bugs, and explores ideas
+              - link "Factory Codes, tests, and creates pull requests" [ref=e1967] [cursor=pointer]:
+                - /url: /integrations/factory
+                - generic [ref=e1971]:
+                  - paragraph [ref=e1972]:
+                    - generic [ref=e1973]: Factory
+                  - paragraph [ref=e1975]: Codes, tests, and creates pull requests
+              - link "Charlie Plans, implements, and reviews your TypeScript PRs" [ref=e1976] [cursor=pointer]:
+                - /url: /integrations/charlie
+                - generic [ref=e1981]:
+                  - paragraph [ref=e1982]:
+                    - generic [ref=e1983]: Charlie
+                  - paragraph [ref=e1985]: Plans, implements, and reviews your TypeScript PRs
+              - link "Ranger Enhance bug formatting and generate test plans" [ref=e1986] [cursor=pointer]:
+                - /url: /integrations/ranger
+                - generic [ref=e1995]:
+                  - paragraph [ref=e1996]:
+                    - generic [ref=e1997]: Ranger
+                  - paragraph [ref=e1999]: Enhance bug formatting and generate test plans
+              - link "Tembo Delegates work to any coding agent" [ref=e2000] [cursor=pointer]:
+                - /url: /integrations/tembo
+                - generic [ref=e2008]:
+                  - paragraph [ref=e2009]:
+                    - generic [ref=e2010]: Tembo
+                  - paragraph [ref=e2012]: Delegates work to any coding agent
+      - generic [ref=e2014]:
+        - generic [ref=e2015]:
+          - heading "Create your own agents" [level=2] [ref=e2016]
+          - paragraph [ref=e2018]: Build your own AI teammates with the Linear API. Keep them private or share with the Linear community.
+          - generic [ref=e2020]:
+            - link "Start building" [ref=e2021] [cursor=pointer]:
+              - /url: /developers/agents
+            - link "Read guidelines" [ref=e2022] [cursor=pointer]:
+              - /url: /developers/aig
+        - generic:
+          - img "An illustration showing multiple cursor icons moving towards a pointing hand, symbolizing the interaction between humans and AI agents"
+    - contentinfo [ref=e2127]:
+      - generic [ref=e2129]:
+        - link [ref=e2131] [cursor=pointer]:
+          - /url: /
+          - img "Linear Logo" [ref=e2132]
+        - generic [ref=e2134]:
+          - heading "Product" [level=3] [ref=e2135]
+          - list [ref=e2136]:
+            - listitem [ref=e2137]:
+              - link "Intake" [ref=e2138] [cursor=pointer]:
+                - /url: /intake
+            - listitem [ref=e2139]:
+              - link "Plan" [ref=e2140] [cursor=pointer]:
+                - /url: /plan
+            - listitem [ref=e2141]:
+              - link "Build" [ref=e2142] [cursor=pointer]:
+                - /url: /build
+            - listitem [ref=e2143]:
+              - link "Diffs" [ref=e2144] [cursor=pointer]:
+                - /url: /diffs
+            - listitem [ref=e2145]:
+              - link "Monitor" [ref=e2146] [cursor=pointer]:
+                - /url: /monitor
+            - listitem [ref=e2147]:
+              - link "Pricing" [ref=e2148] [cursor=pointer]:
+                - /url: /pricing
+            - listitem [ref=e2149]:
+              - link "Security" [ref=e2150] [cursor=pointer]:
+                - /url: /security
+        - generic [ref=e2151]:
+          - heading "Features" [level=3] [ref=e2152]
+          - list [ref=e2153]:
+            - listitem [ref=e2154]:
+              - link "Asks" [ref=e2155] [cursor=pointer]:
+                - /url: /asks
+            - listitem [ref=e2156]:
+              - link "Agents" [ref=e2157] [cursor=pointer]:
+                - /url: /agents
+            - listitem [ref=e2158]:
+              - link "Coding Sessions" [ref=e2159] [cursor=pointer]:
+                - /url: /coding-sessions
+            - listitem [ref=e2160]:
+              - link "Customer Requests" [ref=e2161] [cursor=pointer]:
+                - /url: /customer-requests
+            - listitem [ref=e2162]:
+              - link "Insights" [ref=e2163] [cursor=pointer]:
+                - /url: /insights
+            - listitem [ref=e2164]:
+              - link "Mobile" [ref=e2165] [cursor=pointer]:
+                - /url: /mobile
+            - listitem [ref=e2166]:
+              - link "Integrations" [ref=e2167] [cursor=pointer]:
+                - /url: /integrations
+            - listitem [ref=e2168]:
+              - link "Changelog" [ref=e2169] [cursor=pointer]:
+                - /url: /changelog
+        - generic [ref=e2170]:
+          - heading "Company" [level=3] [ref=e2171]
+          - list [ref=e2172]:
+            - listitem [ref=e2173]:
+              - link "About" [ref=e2174] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e2175]:
+              - link "Customers" [ref=e2176] [cursor=pointer]:
+                - /url: /customers
+            - listitem [ref=e2177]:
+              - link "Careers" [ref=e2178] [cursor=pointer]:
+                - /url: /careers
+            - listitem [ref=e2179]:
+              - link "Blog" [ref=e2180] [cursor=pointer]:
+                - /url: /blog
+            - listitem [ref=e2181]:
+              - link "Method" [ref=e2182] [cursor=pointer]:
+                - /url: /method
+            - listitem [ref=e2183]:
+              - link "Quality" [ref=e2184] [cursor=pointer]:
+                - /url: /quality
+            - listitem [ref=e2185]:
+              - link "Brand" [ref=e2186] [cursor=pointer]:
+                - /url: /brand
+        - generic [ref=e2187]:
+          - heading "Resources" [level=3] [ref=e2188]
+          - list [ref=e2189]:
+            - listitem [ref=e2190]:
+              - link "Switch" [ref=e2191] [cursor=pointer]:
+                - /url: /switch
+            - listitem [ref=e2192]:
+              - link "Download" [ref=e2193] [cursor=pointer]:
+                - /url: /download
+            - listitem [ref=e2194]:
+              - link "Documentation" [ref=e2195] [cursor=pointer]:
+                - /url: /docs
+            - listitem [ref=e2197]:
+              - link "Developers" [ref=e2198] [cursor=pointer]:
+                - /url: /developers
+            - listitem [ref=e2199]:
+              - link "Status" [ref=e2200] [cursor=pointer]:
+                - /url: https://linearstatus.com
+            - listitem [ref=e2201]:
+              - link "Enterprise" [ref=e2202] [cursor=pointer]:
+                - /url: /enterprise
+            - listitem [ref=e2203]:
+              - link "Startups" [ref=e2204] [cursor=pointer]:
+                - /url: /startups
+        - generic [ref=e2205]:
+          - heading "Connect" [level=3] [ref=e2206]
+          - list [ref=e2207]:
+            - listitem [ref=e2208]:
+              - link "Contact us" [ref=e2209] [cursor=pointer]:
+                - /url: /contact
+            - listitem [ref=e2210]:
+              - link "Community" [ref=e2211] [cursor=pointer]:
+                - /url: https://linear.app/join-slack
+            - listitem [ref=e2212]:
+              - link "X (Twitter)" [ref=e2213] [cursor=pointer]:
+                - /url: https://x.com/linear
+            - listitem [ref=e2214]:
+              - link "GitHub" [ref=e2215] [cursor=pointer]:
+                - /url: https://github.com/linear
+            - listitem [ref=e2216]:
+              - link "YouTube" [ref=e2217] [cursor=pointer]:
+                - /url: https://www.youtube.com/@linear
+        - generic [ref=e2219]:
+          - link "Privacy" [ref=e2220] [cursor=pointer]:
+            - /url: /privacy
+          - link "Terms" [ref=e2221] [cursor=pointer]:
+            - /url: /terms
+          - link "DPA" [ref=e2222] [cursor=pointer]:
+            - /url: /dpa
+          - link "AUP" [ref=e2223] [cursor=pointer]:
+            - /url: /legal/aup

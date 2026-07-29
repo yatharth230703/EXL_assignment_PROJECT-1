@@ -1,0 +1,75 @@
+{
+  "page_url": "https://linear.app/blog",
+  "viewport": "desktop_1440",
+  "timestamp": "2026-07-29T17:10:44.882897Z",
+  "console_messages": [],
+  "network_failures": [
+    {
+      "url": "https://webassets.linear.app/files/ornj730p/production/9344ec9fa397c5c003465b7d6b7174560c21507d.mp4",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://webassets.linear.app/files/ornj730p/production/36ceca0e6d3cce8e709484b134e170b44a7bd43c.mp4",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://webassets.linear.app/files/ornj730p/production/e7800c833c05c533f9c2e87d379148ef64e05002.mp4",
+      "status": null,
+      "failure_text": "net::ERR_ABORTED"
+    }
+  ],
+  "navigation_timing": {
+    "ttfb_ms": 773.1000000238419,
+    "dom_content_loaded_ms": 2468.100000023842,
+    "load_event_ms": 0.0
+  },
+  "cls_score": 0.00010237254285354509,
+  "lcp_ms": 17248.0,
+  "layout_shifts": [
+    {
+      "value": 0.00010237254285354509,
+      "selector": "a.Jbvjba_tab.I_mUeq_root"
+    }
+  ],
+  "dom_issues": {
+    "broken_image_srcs": [],
+    "overflowing_selectors": [],
+    "placeholder_text_hits": []
+  },
+  "screenshot_early_path": "runs/20260729T170907Z-linear_app/screenshots/linear_app_blog_desktop_1440_early.png",
+  "screenshot_settled_viewport_path": "runs/20260729T170907Z-linear_app/screenshots/linear_app_blog_desktop_1440_settled_viewport.png",
+  "screenshot_settled_fullpage_path": "runs/20260729T170907Z-linear_app/screenshots/linear_app_blog_desktop_1440_settled_fullpage.png",
+  "visually_stable": true,
+  "has_form": false,
+  "form_selectors": [],
+  "primary_cta": "Search…",
+  "axe_violations": [
+    {
+      "rule_id": "color-contrast",
+      "impact": "serious",
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+      "selectors": [
+        "a[href$=\"introducing-loops\"] > .RTm11a_meta.dtWxxo.sc-KOGVz",
+        "a[href$=\"boom\"] > .RTm11a_meta.dtWxxo.sc-KOGVz",
+        "a[href$=\"linear-agent-bug-fix\"] > .RTm11a_meta.dtWxxo.sc-KOGVz"
+      ],
+      "node_count": 30
+    },
+    {
+      "rule_id": "link-name",
+      "impact": "serious",
+      "help": "Links must have discernible text",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/link-name?application=axeAPI",
+      "selectors": [
+        ".hbnAuG_root"
+      ],
+      "node_count": 1
+    }
+  ],
+  "axe_error": null,
+  "capture_error": null,
+  "status": "ok"
+}

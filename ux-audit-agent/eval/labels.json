@@ -1,0 +1,54 @@
+{
+  "_readme": [
+    "Hand-labelled ground truth for the vision layer (spec §10).",
+    "One entry per (page_url, viewport) that a human has actually looked at.",
+    "",
+    "  expected_issues : things a human reviewer AGREES are real problems visible",
+    "                    in the screenshot. A vision finding matching one of these",
+    "                    counts as a true positive.",
+    "  clean           : true if the human found NOTHING wrong. Any vision finding",
+    "                    on a clean view is a false positive. Clean views matter as",
+    "                    much as broken ones — they're what catches a model that",
+    "                    invents problems to look useful.",
+    "",
+    "Spec §10 asks for ~8 pages. Seeded below with the 4 views verified by hand",
+    "against runs/resumetest screenshots. EXTEND THIS before trusting the number:",
+    "4 views is a smoke test, not a precision measurement."
+  ],
+
+  "labels": [
+    {
+      "page_url": "https://the-internet.herokuapp.com/",
+      "viewport": "mobile_390",
+      "clean": false,
+      "expected_issues": [
+        "the green 'Fork me on GitHub' corner ribbon overlaps and obscures the page heading text",
+        "the example links are light blue on white and are hard to read (low contrast)"
+      ],
+      "notes": "Verified against the settled mobile screenshot. The ribbon overlap is unambiguous."
+    },
+    {
+      "page_url": "https://the-internet.herokuapp.com/login",
+      "viewport": "mobile_390",
+      "clean": false,
+      "expected_issues": [
+        "the green 'Fork me on GitHub' corner ribbon overlaps the description paragraph text"
+      ],
+      "notes": "Form itself renders correctly at mobile width; only the ribbon overlaps."
+    },
+    {
+      "page_url": "https://the-internet.herokuapp.com/login",
+      "viewport": "desktop_1440",
+      "clean": true,
+      "expected_issues": [],
+      "notes": "At 1440px the ribbon clears the text and the form is well laid out. Any vision finding here is a false positive."
+    },
+    {
+      "page_url": "https://the-internet.herokuapp.com/dynamic_loading/1",
+      "viewport": "mobile_390",
+      "clean": true,
+      "expected_issues": [],
+      "notes": "Sparse page: heading, Start button, footer. Nothing visually wrong. Deliberately included as a clean control."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "page_url": "https://the-internet.herokuapp.com/basic_auth",
+  "viewport": "mobile_390",
+  "timestamp": "2026-07-29T20:22:18.555565Z",
+  "console_messages": [
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 401 (Unauthorized)"
+    }
+  ],
+  "network_failures": [
+    {
+      "url": "https://the-internet.herokuapp.com/basic_auth",
+      "status": 401,
+      "failure_text": null
+    }
+  ],
+  "navigation_timing": {
+    "ttfb_ms": 1062.0999999642372,
+    "dom_content_loaded_ms": 1071.800000011921,
+    "load_event_ms": 1072.0999999642372
+  },
+  "cls_score": 0.0,
+  "lcp_ms": 1092.0,
+  "layout_shifts": [],
+  "dom_issues": {
+    "broken_image_srcs": [],
+    "overflowing_selectors": [],
+    "placeholder_text_hits": []
+  },
+  "screenshot_early_path": "runs/20260729T202154Z-the-internet_herokuapp_com/screenshots/the-internet_herokuapp_com_basic_auth_mobile_390_early.png",
+  "screenshot_settled_viewport_path": "runs/20260729T202154Z-the-internet_herokuapp_com/screenshots/the-internet_herokuapp_com_basic_auth_mobile_390_settled_viewport.png",
+  "screenshot_settled_fullpage_path": "runs/20260729T202154Z-the-internet_herokuapp_com/screenshots/the-internet_herokuapp_com_basic_auth_mobile_390_settled_fullpage.png",
+  "visually_stable": true,
+  "render_suspect": false,
+  "has_form": false,
+  "form_selectors": [],
+  "primary_cta": null,
+  "axe_violations": [
+    {
+      "rule_id": "document-title",
+      "impact": "serious",
+      "help": "Documents must have <title> element to aid in navigation",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/document-title?application=axeAPI",
+      "selectors": [
+        "html"
+      ],
+      "node_count": 1
+    },
+    {
+      "rule_id": "html-has-lang",
+      "impact": "serious",
+      "help": "<html> element must have a lang attribute",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/html-has-lang?application=axeAPI",
+      "selectors": [
+        "html"
+      ],
+      "node_count": 1
+    }
+  ],
+  "axe_error": null,
+  "capture_error": null,
+  "status": "ok"
+}

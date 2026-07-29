@@ -1,0 +1,43 @@
+{
+  "page_url": "https://linear.app/blog/linear-agent-bug-fix",
+  "viewport": "mobile_390",
+  "timestamp": "2026-07-29T17:37:53.231865Z",
+  "console_messages": [],
+  "network_failures": [],
+  "navigation_timing": {
+    "ttfb_ms": 913.8000000119209,
+    "dom_content_loaded_ms": 1795.0,
+    "load_event_ms": 0.0
+  },
+  "cls_score": 0.0,
+  "lcp_ms": 20620.0,
+  "layout_shifts": [],
+  "dom_issues": {
+    "broken_image_srcs": [],
+    "overflowing_selectors": [],
+    "placeholder_text_hits": []
+  },
+  "screenshot_early_path": "runs/20260729T173504Z-linear_app/screenshots/linear_app_blog_linear-agent-bug-fix_mobile_390_early.png",
+  "screenshot_settled_viewport_path": "runs/20260729T173504Z-linear_app/screenshots/linear_app_blog_linear-agent-bug-fix_mobile_390_settled_viewport.png",
+  "screenshot_settled_fullpage_path": "runs/20260729T173504Z-linear_app/screenshots/linear_app_blog_linear-agent-bug-fix_mobile_390_settled_fullpage.png",
+  "visually_stable": true,
+  "render_suspect": false,
+  "has_form": false,
+  "form_selectors": [],
+  "primary_cta": "Log in\nSign up",
+  "axe_violations": [
+    {
+      "rule_id": "button-name",
+      "impact": "critical",
+      "help": "Buttons must have discernible text",
+      "help_url": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
+      "selectors": [
+        ".TZTsQG_mobileMenuTrigger"
+      ],
+      "node_count": 1
+    }
+  ],
+  "axe_error": null,
+  "capture_error": null,
+  "status": "ok"
+}

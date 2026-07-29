@@ -1,0 +1,10 @@
+# ADK 2.x moves fast (spec §16) — pin it, and re-read the workflow docs before bumping.
+# Extras: [db] for DatabaseSessionService (sqlalchemy), [mcp] for McpToolset.
+google-adk[db,mcp]==2.5.0
+
+playwright>=1.45
+pydantic>=2.6
+PyYAML>=6.0
+chromadb>=1.5
+python-dotenv>=1.0
+pillow>=10.0          # screenshot downscaling for the vision pass

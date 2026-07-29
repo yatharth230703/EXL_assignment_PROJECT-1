@@ -1,0 +1,365 @@
+- generic [ref=e2]:
+  - region "Notifications alt+T"
+  - link "Skip to content →":
+    - /url: "#skip-nav"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - navigation "Main" [ref=e5]:
+        - list "Site navigation" [ref=e8]:
+          - listitem [ref=e9]:
+            - link "Navigate to home" [ref=e11] [cursor=pointer]:
+              - /url: /homepage
+              - img "Linear" [ref=e12]
+          - listitem [ref=e14]:
+            - list [ref=e15]:
+              - listitem [ref=e16]:
+                - button "Product" [ref=e17] [cursor=pointer]
+              - listitem [ref=e18]:
+                - button "Resources" [ref=e19] [cursor=pointer]
+              - listitem [ref=e20]:
+                - link "Customers" [ref=e21] [cursor=pointer]:
+                  - /url: /customers
+              - listitem [ref=e22]:
+                - link "Pricing" [ref=e23] [cursor=pointer]:
+                  - /url: /pricing
+              - listitem [ref=e24]:
+                - link "Now" [ref=e25] [cursor=pointer]:
+                  - /url: /now
+              - listitem [ref=e26]:
+                - link "Contact" [ref=e27] [cursor=pointer]:
+                  - /url: /contact
+            - list [ref=e29]:
+              - listitem [ref=e30]:
+                - link "Log in" [ref=e32] [cursor=pointer]:
+                  - /url: /login
+              - listitem [ref=e33]:
+                - link "Sign up" [ref=e34] [cursor=pointer]:
+                  - /url: /signup
+    - main [ref=e35]:
+      - generic [ref=e120]:
+        - generic [ref=e121]: Linear Asks
+        - heading "Turn workplace requests into actionable issues" [level=1] [ref=e124]:
+          - generic [ref=e127]:
+            - generic [ref=e128]: Turn workplace requests
+            - generic [ref=e129]: into actionable issues
+        - paragraph [ref=e131]:
+          - generic [ref=e132]: Linear Asks is a new take on intake. Submit requests directly from Slack, email, and web forms, and automatically send them to the relevant team in Linear.
+        - button "See how it works" [ref=e135] [cursor=pointer]
+      - generic [ref=e138]:
+        - generic [ref=e141]:
+          - text: Intake
+          - heading "Works where your team already is" [level=2] [ref=e144]
+          - paragraph [ref=e146]:
+            - strong [ref=e147]: Linear Asks is a new take on intake.
+            - text: Submit requests directly from Slack, email, and web forms, and automatically send them to the relevant team in Linear.
+          - generic [ref=e149]:
+            - generic [ref=e150]: Slack
+            - generic [ref=e157]: Email
+            - generic [ref=e161]: Forms
+        - generic [ref=e169]:
+          - generic [ref=e170]:
+            - heading "Create new requests from Slack" [level=2] [ref=e171]
+            - paragraph [ref=e173]: Let anyone in your Slack workspace quickly file a request — even if they don't have a Linear account.
+          - generic [ref=e177]:
+            - heading "Turn any email thread into an ask" [level=2] [ref=e178]
+            - paragraph [ref=e180]: Create new requests by cc'ing or forwarding to designated email addresses.
+        - generic [ref=e184]:
+          - generic [ref=e185]:
+            - heading "Build custom web forms" [level=2] [ref=e186]
+            - paragraph [ref=e188]: Create internal request pages with custom forms that turn submissions into structured issues.
+          - generic [ref=e191]:
+            - heading "Get notified about new comments and updates" [level=2] [ref=e192]
+            - paragraph [ref=e194]: Receive realtime updates on your Asks, delivered to the same channel your request came from.
+            - generic [ref=e197]:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: Linear Asks
+                      - generic: 15:40
+                    - generic: "Sid Bhargava created a new Customer Bug Report: ENG-920 “Investigate missing expand control”"
+              - generic [ref=e206]:
+                - generic [ref=e207]:
+                  - generic [ref=e209]:
+                    - text: IT Helpdesk
+                    - generic [ref=e210]: it@acme.com
+                  - generic [ref=e211]: 14:28
+                - generic [ref=e212]: "An ask has been created from your email: IT-7710 “Conference room audio not working”"
+              - generic [ref=e222]:
+                - generic [ref=e223]:
+                  - generic [ref=e224]: Linear Asks
+                  - generic [ref=e226]: 09:21
+                - generic [ref=e227]: Lora Baines changed status to Done for DATA-386 “New query for Sales dashboard”
+              - generic [ref=e236]:
+                - generic [ref=e237]:
+                  - generic [ref=e239]:
+                    - text: Requests
+                    - generic [ref=e240]: ops@acme.com
+                  - generic [ref=e241]: 17:59
+                - generic [ref=e242]: "Your ask has been marked as Done: OPS-194 “Team offsite budget approval”"
+              - generic [ref=e252]:
+                - generic [ref=e253]:
+                  - generic [ref=e254]: Linear Asks
+                  - generic [ref=e256]: 15:40
+                - generic [ref=e257]: "Sid Bhargava created a new Customer Bug Report: ENG-920 “Investigate missing expand control”"
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - text: IT Helpdesk
+                          - generic: it@acme.com
+                      - generic: 14:28
+                    - generic: "An ask has been created from your email: IT-7710 “Conference room audio not working”"
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: Linear Asks
+                      - generic: 09:21
+                    - generic: Lora Baines changed status to Done for DATA-386 “New query for Sales dashboard”
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - text: Requests
+                          - generic: ops@acme.com
+                      - generic: 17:59
+                    - generic: "Your ask has been marked as Done: OPS-194 “Team offsite budget approval”"
+        - generic [ref=e261]:
+          - generic [ref=e262]:
+            - heading [level=3] [ref=e263]
+            - paragraph [ref=e268]: Create private Asks for sensitive requests.
+          - generic [ref=e269]:
+            - heading [level=3] [ref=e270]
+            - paragraph [ref=e275]: Turn any Slack message into an Ask simply by using an emoji.
+          - generic [ref=e276]:
+            - heading [level=3] [ref=e277]
+            - paragraph [ref=e282]: Every message in a Slack channel becomes an Ask.
+          - generic [ref=e283]:
+            - heading [level=3] [ref=e284]
+            - paragraph [ref=e289]: Allow external users, such as customers, to create requests.
+        - link [ref=e291] [cursor=pointer]:
+          - /url: /blog/simplifying-support-at-scale-how-pleo-uses-linear-asks
+          - blockquote [ref=e292]:
+            - paragraph [ref=e293]: We save close to $30,000 per year since moving to Linear Asks
+        - generic [ref=e297]:
+          - generic [ref=e298]:
+            - text: Linear Triage
+            - heading "A better way to manage requests" [level=2] [ref=e301]
+            - paragraph [ref=e303]:
+              - strong [ref=e304]: Manage incoming requests from a shared triage inbox.
+              - text: Review, prioritize, assign, and update each issue without ever switching back to Slack or Email.
+            - generic [ref=e306]: AI duplicate detection
+          - generic [ref=e312]:
+            - generic [ref=e313] [cursor=pointer]:
+              - generic [ref=e318]: Accept...
+              - generic [ref=e319]: "1"
+            - generic [ref=e320] [cursor=pointer]:
+              - generic [ref=e324]: Mark as duplicate...
+              - generic [ref=e325]: "2"
+            - generic [ref=e326] [cursor=pointer]:
+              - generic [ref=e331]: Decline...
+              - generic [ref=e332]: "3"
+            - generic [ref=e334] [cursor=pointer]: Snooze
+        - generic [ref=e343]:
+          - generic [ref=e344]:
+            - heading "Discuss requests with bi-directionally synced threads" [level=2] [ref=e346]
+            - paragraph [ref=e348]: Comments sync automatically between Linear and the original request channel.
+          - generic [ref=e349]:
+            - heading "Control who has access to sensitive requests" [level=2] [ref=e352]
+            - paragraph [ref=e354]: Limit visibility of sensitive Asks with private teams and scoped access controls.
+        - text: Workflows
+        - heading "Create powerful request workflows" [level=2] [ref=e358]
+        - paragraph [ref=e360]: Asks is seamlessly integrated with the rest of the Linear system, unlocking new levels of control over your request workflows.
+        - generic [ref=e362]:
+          - link [ref=e364] [cursor=pointer]:
+            - /url: /customer-requests
+            - generic [ref=e366]:
+              - generic [ref=e367]:
+                - heading "Customer Requests" [level=3] [ref=e368]
+                - paragraph [ref=e369]: Link feedback with customer data to align product work with user needs
+              - button [ref=e370]
+          - link [ref=e374] [cursor=pointer]:
+            - /url: /insights
+            - generic [ref=e376]:
+              - generic [ref=e377]:
+                - heading "Insights" [level=3] [ref=e378]
+                - paragraph [ref=e379]: See trends around response time, workload, and more
+              - button [ref=e380]
+        - generic [ref=e384]:
+          - link [ref=e386] [cursor=pointer]:
+            - /url: /agents
+            - generic [ref=e388]:
+              - generic [ref=e389]:
+                - heading "Linear for Agents" [level=3] [ref=e390]
+                - paragraph [ref=e391]: Delegate incoming requests to AI agents
+              - button [ref=e392]
+          - generic [ref=e399]:
+            - heading "SLAs" [level=3] [ref=e400]
+            - paragraph [ref=e401]: Apply automatic deadlines to time-sensitive requests
+          - generic [ref=e406]:
+            - heading "Triage automations" [level=3] [ref=e407]
+            - paragraph [ref=e408]: Auto-assign requests based on predefined rules and schedules
+        - generic [ref=e410]:
+          - generic [ref=e411]:
+            - heading "How teams use Linear Asks" [level=2] [ref=e412]
+            - paragraph [ref=e413]: Linear Asks supports all types of workplace requests. From engineering and design to IT, legal, and HR.
+          - generic [ref=e415]:
+            - heading "Streamline bug reporting" [level=3] [ref=e416]
+            - paragraph [ref=e417]: Enable people outside of your engineering org to quickly file bug reports without worrying about complex issue details.
+            - heading "Build an IT help desk" [level=3] [ref=e419]
+            - paragraph [ref=e420]: "Turn any message in your #ask-IT channel into an IT ticket by reacting with an emoji."
+            - heading "Escalate customer conversations" [level=3] [ref=e422]
+            - paragraph [ref=e423]: Forward emails from customers to create trackable issues when engineering support is needed.
+            - heading "Standardize Ops requests" [level=3] [ref=e425]
+            - paragraph [ref=e426]: Configure templates with concrete instructions, placeholders, and checkboxes to standardize and streamline intake.
+            - heading "Improve customer success" [level=3] [ref=e428]
+            - paragraph [ref=e429]: Add Linear Asks to shared Slack channels to enable your most important customers to file bug reports and feature requests.
+            - heading "Manage sensitive HR tickets" [level=3] [ref=e431]
+            - paragraph [ref=e432]: Create private Asks via DM for sensitive requests that only you and your HR team can access.
+        - generic [ref=e434]:
+          - paragraph [ref=e435]: Trusted by product, GTM, and internal operations teams at leading companies
+          - link "Meet our customers" [ref=e437] [cursor=pointer]:
+            - /url: /customers
+      - generic [ref=e507]:
+        - heading "Streamline your internal request workflows" [level=3] [ref=e509]
+        - generic [ref=e510]:
+          - link "Contact sales" [ref=e511] [cursor=pointer]:
+            - /url: /contact/sales?message=I'm interested in Linear Asks for my team and would like to learn more about…
+          - link "Get started" [ref=e512] [cursor=pointer]:
+            - /url: /signup
+    - contentinfo [ref=e513]:
+      - generic [ref=e515]:
+        - link [ref=e517] [cursor=pointer]:
+          - /url: /
+          - img "Linear Logo" [ref=e518]
+        - generic [ref=e520]:
+          - heading "Product" [level=3] [ref=e521]
+          - list [ref=e522]:
+            - listitem [ref=e523]:
+              - link "Intake" [ref=e524] [cursor=pointer]:
+                - /url: /intake
+            - listitem [ref=e525]:
+              - link "Plan" [ref=e526] [cursor=pointer]:
+                - /url: /plan
+            - listitem [ref=e527]:
+              - link "Build" [ref=e528] [cursor=pointer]:
+                - /url: /build
+            - listitem [ref=e529]:
+              - link "Diffs" [ref=e530] [cursor=pointer]:
+                - /url: /diffs
+            - listitem [ref=e531]:
+              - link "Monitor" [ref=e532] [cursor=pointer]:
+                - /url: /monitor
+            - listitem [ref=e533]:
+              - link "Pricing" [ref=e534] [cursor=pointer]:
+                - /url: /pricing
+            - listitem [ref=e535]:
+              - link "Security" [ref=e536] [cursor=pointer]:
+                - /url: /security
+        - generic [ref=e537]:
+          - heading "Features" [level=3] [ref=e538]
+          - list [ref=e539]:
+            - listitem [ref=e540]:
+              - link "Asks" [ref=e541] [cursor=pointer]:
+                - /url: /asks
+            - listitem [ref=e542]:
+              - link "Agents" [ref=e543] [cursor=pointer]:
+                - /url: /agents
+            - listitem [ref=e544]:
+              - link "Coding Sessions" [ref=e545] [cursor=pointer]:
+                - /url: /coding-sessions
+            - listitem [ref=e546]:
+              - link "Customer Requests" [ref=e547] [cursor=pointer]:
+                - /url: /customer-requests
+            - listitem [ref=e548]:
+              - link "Insights" [ref=e549] [cursor=pointer]:
+                - /url: /insights
+            - listitem [ref=e550]:
+              - link "Mobile" [ref=e551] [cursor=pointer]:
+                - /url: /mobile
+            - listitem [ref=e552]:
+              - link "Integrations" [ref=e553] [cursor=pointer]:
+                - /url: /integrations
+            - listitem [ref=e554]:
+              - link "Changelog" [ref=e555] [cursor=pointer]:
+                - /url: /changelog
+        - generic [ref=e556]:
+          - heading "Company" [level=3] [ref=e557]
+          - list [ref=e558]:
+            - listitem [ref=e559]:
+              - link "About" [ref=e560] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e561]:
+              - link "Customers" [ref=e562] [cursor=pointer]:
+                - /url: /customers
+            - listitem [ref=e563]:
+              - link "Careers" [ref=e564] [cursor=pointer]:
+                - /url: /careers
+            - listitem [ref=e565]:
+              - link "Blog" [ref=e566] [cursor=pointer]:
+                - /url: /blog
+            - listitem [ref=e567]:
+              - link "Method" [ref=e568] [cursor=pointer]:
+                - /url: /method
+            - listitem [ref=e569]:
+              - link "Quality" [ref=e570] [cursor=pointer]:
+                - /url: /quality
+            - listitem [ref=e571]:
+              - link "Brand" [ref=e572] [cursor=pointer]:
+                - /url: /brand
+        - generic [ref=e573]:
+          - heading "Resources" [level=3] [ref=e574]
+          - list [ref=e575]:
+            - listitem [ref=e576]:
+              - link "Switch" [ref=e577] [cursor=pointer]:
+                - /url: /switch
+            - listitem [ref=e578]:
+              - link "Download" [ref=e579] [cursor=pointer]:
+                - /url: /download
+            - listitem [ref=e580]:
+              - link "Documentation" [ref=e581] [cursor=pointer]:
+                - /url: /docs
+            - listitem [ref=e583]:
+              - link "Developers" [ref=e584] [cursor=pointer]:
+                - /url: /developers
+            - listitem [ref=e585]:
+              - link "Status" [ref=e586] [cursor=pointer]:
+                - /url: https://linearstatus.com
+            - listitem [ref=e587]:
+              - link "Enterprise" [ref=e588] [cursor=pointer]:
+                - /url: /enterprise
+            - listitem [ref=e589]:
+              - link "Startups" [ref=e590] [cursor=pointer]:
+                - /url: /startups
+        - generic [ref=e591]:
+          - heading "Connect" [level=3] [ref=e592]
+          - list [ref=e593]:
+            - listitem [ref=e594]:
+              - link "Contact us" [ref=e595] [cursor=pointer]:
+                - /url: /contact
+            - listitem [ref=e596]:
+              - link "Community" [ref=e597] [cursor=pointer]:
+                - /url: https://linear.app/join-slack
+            - listitem [ref=e598]:
+              - link "X (Twitter)" [ref=e599] [cursor=pointer]:
+                - /url: https://x.com/linear
+            - listitem [ref=e600]:
+              - link "GitHub" [ref=e601] [cursor=pointer]:
+                - /url: https://github.com/linear
+            - listitem [ref=e602]:
+              - link "YouTube" [ref=e603] [cursor=pointer]:
+                - /url: https://www.youtube.com/@linear
+        - generic [ref=e605]:
+          - link "Privacy" [ref=e606] [cursor=pointer]:
+            - /url: /privacy
+          - link "Terms" [ref=e607] [cursor=pointer]:
+            - /url: /terms
+          - link "DPA" [ref=e608] [cursor=pointer]:
+            - /url: /dpa
+          - link "AUP" [ref=e609] [cursor=pointer]:
+            - /url: /legal/aup

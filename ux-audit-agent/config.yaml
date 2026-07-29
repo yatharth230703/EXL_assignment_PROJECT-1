@@ -1,0 +1,67 @@
+# Single source of truth for thresholds and patterns — spec §12 says none of this
+# belongs in code. Sections appear as the phase that consumes them lands.
+
+run:
+  max_pages: 15
+  max_depth: 2
+  blog_sample: 2
+  browser_concurrency: 3      # live Chromium contexts, enforced by semaphore
+
+  # Watch the crawl happen. Also worth trying when a site's content doesn't
+  # render headless: JS-driven reveal animations (per-word text fades, etc.)
+  # often don't fire in headless Chromium, which is what made linear.app's hero
+  # capture blank. Headful is slower and steals window focus.
+  headless: false             # true = no window (faster, use for bulk/scheduled runs)
+  slow_mo_ms: 250             # delay per Playwright operation; 0 = full speed
+  node_timeout_s: 45          # hard cap on a single capture
+  settle_timeout_s: 5         # quiet-period wait after DOMContentLoaded before "settled" screenshot
+  early_screenshot_ms: 800    # when to grab the FOUC/flash screenshot
+
+  # Visual settle (added after the first linear.app run). network-idle says
+  # nothing about CSS/JS entrance animations, so the "settled" screenshot was
+  # catching hero text mid-blur-in on modern templated sites and the vision pass
+  # was faithfully reporting the blur as a defect.
+  animation_timeout_ms: 3000    # cap on waiting for running animations to finish
+  stability_interval_ms: 400    # gap between successive stability screenshots
+  stability_max_attempts: 4     # give up after this many; looping animations never settle
+  perf_sample_pages: 3
+  session_db: "sqlite+aiosqlite:///runs.db"
+  custom_run_ids: false       # see spec §7 trade-off
+
+viewports:
+  - {name: mobile_390,   width: 390,  height: 844,  dsf: 3}
+  - {name: tablet_768,   width: 768,  height: 1024, dsf: 2}
+  - {name: desktop_1440, width: 1440, height: 900,  dsf: 1}
+
+thresholds:
+  ttfb_ms:      {medium: 800,  high: 1800}
+  lcp_ms:       {medium: 2500, high: 4000}
+  cls:          {medium: 0.10, high: 0.25}
+  long_task_ms: 200
+
+discovery:
+  exclude_patterns: ["/app/", "/dashboard/", "/account/", "/admin/", "/settings/", "/billing/"]
+  prioritise:      ["/", "/pricing", "/about", "/contact", "/signup", "/login", "/features", "/blog"]
+
+judgment:
+  model: "gemini-flash-latest"
+  llm_concurrency: 4
+  max_findings_per_view: 5
+  min_confidence: medium
+  image_max_width: 1024
+
+probe:
+  model: "gemini-flash-latest"
+  max_probe_pages: 5
+  viewports: [mobile_390, desktop_1440]
+  max_turns: 12
+  mcp_timeout_s: 60
+
+noise:
+  console_denylist_hosts: ["googletagmanager.com", "hotjar.com", "intercom.io"]
+  axe_min_impact: serious
+  max_findings_per_page: 25
+
+storage:
+  chroma_dir: ".chroma"
+  collection: "ux_findings"

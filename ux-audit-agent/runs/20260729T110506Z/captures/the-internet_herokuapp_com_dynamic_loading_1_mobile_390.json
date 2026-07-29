@@ -1,0 +1,30 @@
+{
+  "page_url": "https://the-internet.herokuapp.com/dynamic_loading/1",
+  "viewport": "mobile_390",
+  "timestamp": "2026-07-29T11:05:06.067791Z",
+  "console_messages": [
+    {
+      "type": "error",
+      "text": "Failed to load resource: net::ERR_NAME_NOT_RESOLVED"
+    }
+  ],
+  "network_failures": [],
+  "navigation_timing": {
+    "ttfb_ms": null,
+    "dom_content_loaded_ms": null,
+    "load_event_ms": null
+  },
+  "cls_score": null,
+  "lcp_ms": null,
+  "layout_shifts": [],
+  "dom_issues": {
+    "broken_image_srcs": [],
+    "overflowing_selectors": [],
+    "placeholder_text_hits": []
+  },
+  "screenshot_early_path": null,
+  "screenshot_settled_viewport_path": null,
+  "screenshot_settled_fullpage_path": null,
+  "capture_error": "AttributeError: Page.wait_for_timeout: 'str' object has no attribute 'get'",
+  "status": "error"
+}

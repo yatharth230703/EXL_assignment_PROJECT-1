@@ -1,0 +1,4 @@
+[    2509ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=https%3A%2F%2Fthe-internet.herokuapp.com%2Flogin&u=oeu1785338667948r0.7299041089501433&wxhr=true&t=1785338667950&f=298349752,318188263:0
+[    6770ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://the-internet.herokuapp.com/fonts/fontawesome-webfont.woff2?v=4.3.0 @ https://the-internet.herokuapp.com/login:65
+[    6779ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://the-internet.herokuapp.com/login:0
+[    7338ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ https://the-internet.herokuapp.com/favicon.ico:0

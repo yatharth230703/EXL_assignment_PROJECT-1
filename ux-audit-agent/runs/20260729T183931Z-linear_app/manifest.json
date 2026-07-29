@@ -1,0 +1,120 @@
+{
+  "run_id": "20260729T183931Z-linear_app",
+  "root_url": "https://linear.app/",
+  "pages_attempted": 45,
+  "pages_succeeded": 45,
+  "pages_failed": 0,
+  "models": {
+    "judgment": "gemini-flash-latest",
+    "probe": "gemini-flash-latest"
+  },
+  "config_snapshot": {
+    "run": {
+      "max_pages": 15,
+      "max_depth": 2,
+      "blog_sample": 2,
+      "browser_concurrency": 3,
+      "node_timeout_s": 45,
+      "settle_timeout_s": 5,
+      "early_screenshot_ms": 800,
+      "animation_timeout_ms": 3000,
+      "stability_interval_ms": 400,
+      "stability_max_attempts": 4,
+      "perf_sample_pages": 3,
+      "session_db": "sqlite+aiosqlite:///runs.db",
+      "custom_run_ids": false
+    },
+    "viewports": [
+      {
+        "name": "mobile_390",
+        "width": 390,
+        "height": 844,
+        "dsf": 3
+      },
+      {
+        "name": "tablet_768",
+        "width": 768,
+        "height": 1024,
+        "dsf": 2
+      },
+      {
+        "name": "desktop_1440",
+        "width": 1440,
+        "height": 900,
+        "dsf": 1
+      }
+    ],
+    "thresholds": {
+      "ttfb_ms": {
+        "medium": 800.0,
+        "high": 1800.0
+      },
+      "lcp_ms": {
+        "medium": 2500.0,
+        "high": 4000.0
+      },
+      "cls": {
+        "medium": 0.1,
+        "high": 0.25
+      },
+      "long_task_ms": 200.0
+    },
+    "discovery": {
+      "exclude_patterns": [
+        "/app/",
+        "/dashboard/",
+        "/account/",
+        "/admin/",
+        "/settings/",
+        "/billing/"
+      ],
+      "prioritise": [
+        "/",
+        "/pricing",
+        "/about",
+        "/contact",
+        "/signup",
+        "/login",
+        "/features",
+        "/blog"
+      ]
+    },
+    "judgment": {
+      "model": "gemini-flash-latest",
+      "llm_concurrency": 4,
+      "max_findings_per_view": 5,
+      "min_confidence": "medium",
+      "image_max_width": 1024
+    },
+    "probe": {
+      "model": "gemini-flash-latest",
+      "max_probe_pages": 5,
+      "viewports": [
+        "mobile_390",
+        "desktop_1440"
+      ],
+      "max_turns": 12,
+      "mcp_timeout_s": 60
+    },
+    "noise": {
+      "console_denylist_hosts": [
+        "googletagmanager.com",
+        "hotjar.com",
+        "intercom.io"
+      ],
+      "axe_min_impact": "serious",
+      "max_findings_per_page": 25
+    },
+    "storage": {
+      "chroma_dir": ".chroma",
+      "collection": "ux_findings"
+    }
+  },
+  "urls_seen_in_discovery": 951,
+  "pages_selected": 15,
+  "viewports": [
+    "mobile_390",
+    "tablet_768",
+    "desktop_1440"
+  ]
+}
